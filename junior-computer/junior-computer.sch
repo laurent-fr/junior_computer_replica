@@ -606,25 +606,25 @@ RAM.RW
 Text Label 10200 1550 1    50   ~ 0
 K0
 Text Label 8600 1600 1    50   ~ 0
-A0
-Text Label 8700 1600 1    50   ~ 0
-A1
-Text Label 8800 1600 1    50   ~ 0
-A2
-Text Label 8900 1600 1    50   ~ 0
-A3
-Text Label 9000 1600 1    50   ~ 0
-A4
-Text Label 9100 1600 1    50   ~ 0
 A5
-Text Label 9200 1600 1    50   ~ 0
+Text Label 8700 1600 1    50   ~ 0
 A6
-Text Label 9300 1600 1    50   ~ 0
+Text Label 8800 1600 1    50   ~ 0
 A7
-Text Label 9400 1600 1    50   ~ 0
-A8
-Text Label 9500 1600 1    50   ~ 0
+Text Label 8900 1600 1    50   ~ 0
 A9
+Text Label 9000 1600 1    50   ~ 0
+A2
+Text Label 9100 1600 1    50   ~ 0
+A1
+Text Label 9200 1600 1    50   ~ 0
+A0
+Text Label 9300 1600 1    50   ~ 0
+A3
+Text Label 9400 1600 1    50   ~ 0
+A4
+Text Label 9500 1600 1    50   ~ 0
+A8
 Text Label 10100 3350 1    50   ~ 0
 RAM.RW
 Wire Wire Line
@@ -670,25 +670,25 @@ D6
 Text Label 9950 3350 1    50   ~ 0
 D7
 Text Label 8600 3350 1    50   ~ 0
-A0
-Text Label 8700 3350 1    50   ~ 0
-A1
-Text Label 8800 3350 1    50   ~ 0
-A2
-Text Label 8900 3350 1    50   ~ 0
-A3
-Text Label 9000 3350 1    50   ~ 0
-A4
-Text Label 9100 3350 1    50   ~ 0
 A5
-Text Label 9200 3350 1    50   ~ 0
+Text Label 8700 3350 1    50   ~ 0
 A6
-Text Label 9300 3350 1    50   ~ 0
+Text Label 8800 3350 1    50   ~ 0
 A7
-Text Label 9400 3350 1    50   ~ 0
-A8
-Text Label 9500 3350 1    50   ~ 0
+Text Label 8900 3350 1    50   ~ 0
 A9
+Text Label 9000 3350 1    50   ~ 0
+A2
+Text Label 9100 3350 1    50   ~ 0
+A1
+Text Label 9200 3350 1    50   ~ 0
+A0
+Text Label 9300 3350 1    50   ~ 0
+A3
+Text Label 9400 3350 1    50   ~ 0
+A4
+Text Label 9500 3350 1    50   ~ 0
+A8
 $Comp
 L Timer:NE556 IC8
 U 2 1 5F8C328D
@@ -758,7 +758,7 @@ F 1 "RST" V 1005 6212 50  0000 R CNN
 F 2 "elektor:Digitast" H 1050 6300 50  0001 C CNN
 F 3 "~" H 1050 6300 50  0001 C CNN
 	1    1050 6300
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R17
@@ -916,7 +916,7 @@ F 1 "ST" V 3405 6212 50  0000 R CNN
 F 2 "elektor:Digitast" H 3450 6300 50  0001 C CNN
 F 3 "~" H 3450 6300 50  0001 C CNN
 	1    3450 6300
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R19
