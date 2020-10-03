@@ -594,13 +594,13 @@ Entry Wire Line
 Entry Wire Line
 	9500 2750 9600 2650
 Text Label 9650 1600 1    50   ~ 0
-D0
-Text Label 9750 1600 1    50   ~ 0
-D1
-Text Label 9850 1600 1    50   ~ 0
-D2
-Text Label 9950 1600 1    50   ~ 0
 D3
+Text Label 9750 1600 1    50   ~ 0
+D2
+Text Label 9850 1600 1    50   ~ 0
+D1
+Text Label 9950 1600 1    50   ~ 0
+D0
 Text Label 10100 1600 1    50   ~ 0
 RAM.RW
 Text Label 10200 1550 1    50   ~ 0
@@ -1747,10 +1747,10 @@ F0 "Junior Computer Bus" 50
 F1 "junior_computer_bus.sch" 50
 $EndSheet
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0156
 U 1 1 5F7B2451
 P 7250 4100
-F 0 "#PWR?" H 7250 3950 50  0001 C CNN
+F 0 "#PWR0156" H 7250 3950 50  0001 C CNN
 F 1 "VCC" H 7267 4273 50  0000 C CNN
 F 2 "" H 7250 4100 50  0001 C CNN
 F 3 "" H 7250 4100 50  0001 C CNN
@@ -1758,10 +1758,10 @@ F 3 "" H 7250 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0157
 U 1 1 5F7B299E
 P 7250 4600
-F 0 "#PWR?" H 7250 4350 50  0001 C CNN
+F 0 "#PWR0157" H 7250 4350 50  0001 C CNN
 F 1 "GND" H 7255 4427 50  0000 C CNN
 F 2 "" H 7250 4600 50  0001 C CNN
 F 3 "" H 7250 4600 50  0001 C CNN
