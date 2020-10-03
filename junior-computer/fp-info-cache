@@ -1,4 +1,4 @@
-36832097500665
+38434852253682
 elektor
 7SEGMENT
 
@@ -15,6 +15,13 @@ CAP-2
 2
 elektor
 CAP-3
+
+
+0
+2
+2
+elektor
+CAP-POL-1.5
 
 
 0
@@ -109,7 +116,7 @@ Digitast
 
 
 0
-7
+8
 3
 elektor
 Digitast-LED

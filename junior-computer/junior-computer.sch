@@ -594,13 +594,13 @@ Entry Wire Line
 Entry Wire Line
 	9500 2750 9600 2650
 Text Label 9650 1600 1    50   ~ 0
-D0
-Text Label 9750 1600 1    50   ~ 0
-D1
-Text Label 9850 1600 1    50   ~ 0
-D2
-Text Label 9950 1600 1    50   ~ 0
 D3
+Text Label 9750 1600 1    50   ~ 0
+D2
+Text Label 9850 1600 1    50   ~ 0
+D1
+Text Label 9950 1600 1    50   ~ 0
+D0
 Text Label 10100 1600 1    50   ~ 0
 RAM.RW
 Text Label 10200 1550 1    50   ~ 0
@@ -1427,7 +1427,7 @@ U 1 1 5FC9F687
 P 6400 2750
 F 0 "C12" H 6150 2800 50  0000 L CNN
 F 1 "1µ 16v" H 6000 2700 50  0000 L CNN
-F 2 "elektor:CAP-POL-2" H 6400 2750 50  0001 C CNN
+F 2 "elektor:CAP-POL-1.5" H 6400 2750 50  0001 C CNN
 F 3 "~" H 6400 2750 50  0001 C CNN
 	1    6400 2750
 	0    -1   -1   0   
@@ -1438,7 +1438,7 @@ U 1 1 5FC9F8ED
 P 7300 2750
 F 0 "C13" H 7050 2800 50  0000 L CNN
 F 1 "1µ 16v" H 6900 2700 50  0000 L CNN
-F 2 "elektor:CAP-POL-2" H 7300 2750 50  0001 C CNN
+F 2 "elektor:CAP-POL-1.5" H 7300 2750 50  0001 C CNN
 F 3 "~" H 7300 2750 50  0001 C CNN
 	1    7300 2750
 	0    -1   -1   0   
@@ -1601,9 +1601,9 @@ F 3 "" H 7000 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 4100 7000 4250
+	7000 4100 7000 4150
 Wire Wire Line
-	7000 4450 7000 4600
+	7000 4450 7000 4550
 $Sheet
 S 9150 5200 1400 800 
 U 5FD96926
@@ -1746,6 +1746,39 @@ U 5F748CF2
 F0 "Junior Computer Bus" 50
 F1 "junior_computer_bus.sch" 50
 $EndSheet
+$Comp
+L power:VCC #PWR0156
+U 1 1 5F7B2451
+P 7250 4100
+F 0 "#PWR0156" H 7250 3950 50  0001 C CNN
+F 1 "VCC" H 7267 4273 50  0000 C CNN
+F 2 "" H 7250 4100 50  0001 C CNN
+F 3 "" H 7250 4100 50  0001 C CNN
+	1    7250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 5F7B299E
+P 7250 4600
+F 0 "#PWR0157" H 7250 4350 50  0001 C CNN
+F 1 "GND" H 7255 4427 50  0000 C CNN
+F 2 "" H 7250 4600 50  0001 C CNN
+F 3 "" H 7250 4600 50  0001 C CNN
+	1    7250 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4100 7250 4150
+Wire Wire Line
+	7250 4150 7000 4150
+Connection ~ 7000 4150
+Wire Wire Line
+	7000 4150 7000 4250
+Wire Wire Line
+	7250 4600 7250 4550
+Wire Wire Line
+	7250 4550 7000 4550
 Wire Bus Line
 	8250 1100 10450 1100
 Wire Bus Line
@@ -1758,4 +1791,7 @@ Wire Bus Line
 	3150 1100 8250 1100
 Wire Bus Line
 	1500 900  8350 900 
+Connection ~ 7000 4550
+Wire Wire Line
+	7000 4550 7000 4600
 $EndSCHEMATC
