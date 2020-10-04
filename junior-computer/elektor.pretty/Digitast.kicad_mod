@@ -1,5 +1,5 @@
-(module Digitast (layer F.Cu) (tedit 5F7752AB)
-  (fp_text reference REF** (at 1.27 0) (layer F.SilkS)
+(module Digitast (layer F.Cu) (tedit 5F79D928)
+  (fp_text reference REF** (at 1.27 0) (layer F.SilkS) hide
     (effects (font (size 1.5 2) (thickness 0.375)))
   )
   (fp_text value Digitast (at 0.635 -13.97) (layer F.Fab)
