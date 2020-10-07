@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIN41617-31
+D Connector Europe 64 contacts, ranges A,B,C
+K connector DIN
+F  ~
+$ENDCMP
+#
+$CMP MAN4640A
+D Single digit 7 segment yellow LED common anode right hand decimal
+K display LED 7-segment
+F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+#End Doc Library

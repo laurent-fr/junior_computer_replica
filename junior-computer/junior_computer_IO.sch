@@ -1298,9 +1298,6 @@ F 3 "" H 6200 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 4950 6200 5050
-Connection ~ 6200 4950
-Wire Wire Line
 	6200 5250 6200 5300
 $Comp
 L Connector:Conn_01x03_Female J4
@@ -1336,6 +1333,21 @@ Wire Wire Line
 	7300 2550 7450 2550
 Wire Wire Line
 	7450 2550 7450 2700
+Wire Wire Line
+	6200 5050 6750 5050
+Wire Wire Line
+	6750 5050 6750 5400
+Wire Wire Line
+	6750 5400 6900 5400
+Connection ~ 6900 5400
+Wire Notes Line
+	6100 5000 6850 5000
+Wire Notes Line
+	6850 5000 6850 5450
+Wire Notes Line
+	6850 5450 6100 5450
+Wire Notes Line
+	6100 5450 6100 5000
 Wire Bus Line
 	3000 3650 4550 3650
 Wire Bus Line
