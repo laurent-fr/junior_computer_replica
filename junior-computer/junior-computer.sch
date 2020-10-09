@@ -1643,7 +1643,7 @@ RAM.RW
 Text GLabel 5400 1400 1    50   Output ~ 0
 PHI2
 Text GLabel 6250 3800 0    50   Output ~ 0
-K7
+K6
 Text GLabel 7650 1400 1    50   Output ~ 0
 K7
 Text GLabel 10100 1400 1    50   Input ~ 0
@@ -1896,7 +1896,7 @@ Wire Wire Line
 	6000 5600 5900 5600
 Connection ~ 5900 5600
 Text GLabel 5800 3900 1    50   Output ~ 0
-K6
+K7
 Wire Wire Line
 	5800 3900 5800 4150
 Text GLabel 6250 4000 0    50   Output ~ 0
