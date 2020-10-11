@@ -204,10 +204,10 @@ Wire Wire Line
 	1850 3300 1900 3300
 Connection ~ 1850 3000
 $Comp
-L Device:Crystal X.Tal
+L Device:Crystal X.Tal1
 U 1 1 5F71EF4A
 P 2750 3400
-F 0 "X.Tal" H 2750 3668 50  0000 C CNN
+F 0 "X.Tal1" H 2750 3668 50  0000 C CNN
 F 1 "1Mhz" H 2750 3577 50  0000 C CNN
 F 2 "elektor:Quartz" H 2750 3400 50  0001 C CNN
 F 3 "~" H 2750 3400 50  0001 C CNN
