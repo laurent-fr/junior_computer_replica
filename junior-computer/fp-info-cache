@@ -1,4 +1,4 @@
-184205216100308
+190709601230735
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -51121,6 +51121,20 @@ Conn-Display-Top
 13
 13
 elektor
+DI41612-AC-F
+Connecteur DIN Europe 96 contacts AC femelle droit
+CONN DIN
+0
+64
+64
+elektor
+DIL-8
+
+
+0
+8
+8
+elektor
 DIL-14
 
 
@@ -51141,6 +51155,13 @@ DIL-18
 0
 18
 18
+elektor
+DIL-20
+
+
+0
+20
+19
 elektor
 DIL-24
 
@@ -51248,6 +51269,13 @@ connector molex mini-fit 5556
 5
 mylib
 Socket_DIN41612-CaseC1-AC-Female-64Pin-2rows
+
+
+0
+66
+65
+mylib
+Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows
 
 
 0

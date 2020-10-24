@@ -1,0 +1,171 @@
+EESchema Schematic File Version 4
+LIBS:junior-interface-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Comparator:LM311 IC7
+U 1 1 5F93A9A0
+P 5300 3100
+F 0 "IC7" H 5644 3146 50  0000 L CNN
+F 1 "LM311" H 5644 3055 50  0000 L CNN
+F 2 "elektor:DIL-8" H 5300 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm311.pdf" H 5300 3100 50  0001 C CNN
+	1    5300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM311 IC8
+U 1 1 5F93AFD8
+P 2500 3200
+F 0 "IC8" H 2844 3246 50  0000 L CNN
+F 1 "LM311" H 2844 3155 50  0000 L CNN
+F 2 "elektor:DIL-8" H 2500 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm311.pdf" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L junior_computer:NE565 IC6
+U 1 1 5F952C6E
+P 6900 3050
+F 0 "IC6" H 6975 3515 50  0000 C CNN
+F 1 "NE565" H 6975 3424 50  0000 C CNN
+F 2 "elektor:DIL-14" H 6900 3050 50  0001 C CNN
+F 3 "" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB25_Female J3
+U 1 1 5FDC8132
+P 4300 2000
+F 0 "J3" H 4480 2046 50  0000 L CNN
+F 1 "DB25_Female" H 4480 1955 50  0000 L CNN
+F 2 "" H 4300 2000 50  0001 C CNN
+F 3 " ~" H 4300 2000 50  0001 C CNN
+	1    4300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 T1
+U 1 1 5FDC9F5A
+P 2350 1800
+F 0 "T1" H 2541 1846 50  0000 L CNN
+F 1 "BC547" H 2541 1755 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 2550 1725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2350 1800 50  0001 L CNN
+	1    2350 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5FDCA5FB
+P 2250 1300
+F 0 "R7" H 2320 1346 50  0000 L CNN
+F 1 "8k2" H 2320 1255 50  0000 L CNN
+F 2 "elektor:Res-5" V 2180 1300 50  0001 C CNN
+F 3 "~" H 2250 1300 50  0001 C CNN
+	1    2250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FDCA848
+P 3100 1300
+F 0 "R5" H 3170 1346 50  0000 L CNN
+F 1 "22k" H 3170 1255 50  0000 L CNN
+F 2 "elektor:Res-5" V 3030 1300 50  0001 C CNN
+F 3 "~" H 3100 1300 50  0001 C CNN
+	1    3100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5FDCAAA9
+P 3100 2100
+F 0 "R6" H 3170 2146 50  0000 L CNN
+F 1 "10k" H 3170 2055 50  0000 L CNN
+F 2 "elektor:Res-5" V 3030 2100 50  0001 C CNN
+F 3 "~" H 3100 2100 50  0001 C CNN
+	1    3100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5FDCAEC9
+P 2650 2100
+F 0 "D1" V 2604 2179 50  0000 L CNN
+F 1 "1N4148" V 2695 2179 50  0000 L CNN
+F 2 "elektor:Diod-4" H 2650 2100 50  0001 C CNN
+F 3 "~" H 2650 2100 50  0001 C CNN
+	1    2650 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 5FDCBC40
+P 2650 2350
+F 0 "#PWR0141" H 2650 2100 50  0001 C CNN
+F 1 "GND" H 2655 2177 50  0000 C CNN
+F 2 "" H 2650 2350 50  0001 C CNN
+F 3 "" H 2650 2350 50  0001 C CNN
+	1    2650 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2250 3100 2300
+Wire Wire Line
+	3100 2300 2650 2300
+Wire Wire Line
+	2250 2300 2250 2000
+Wire Wire Line
+	2650 2250 2650 2300
+Connection ~ 2650 2300
+Wire Wire Line
+	2650 2300 2250 2300
+Wire Wire Line
+	2650 2350 2650 2300
+Wire Wire Line
+	2650 1800 2550 1800
+Wire Wire Line
+	2650 1950 2650 1800
+Wire Wire Line
+	2650 1800 3100 1800
+Wire Wire Line
+	3100 1800 3100 1950
+Connection ~ 2650 1800
+Wire Wire Line
+	3100 1800 3100 1450
+Connection ~ 3100 1800
+Wire Wire Line
+	2250 1450 2250 1600
+$Comp
+L power:+5V #PWR0142
+U 1 1 5FDCCA81
+P 2250 1050
+F 0 "#PWR0142" H 2250 900 50  0001 C CNN
+F 1 "+5V" H 2265 1223 50  0000 C CNN
+F 2 "" H 2250 1050 50  0001 C CNN
+F 3 "" H 2250 1050 50  0001 C CNN
+	1    2250 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1050 2250 1150
+Wire Wire Line
+	4000 1000 3100 1000
+Wire Wire Line
+	3100 1000 3100 1150
+$EndSCHEMATC
