@@ -12,4 +12,10 @@ K display LED 7-segment
 F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
 $ENDCMP
 #
+$CMP relay_reed
+D Standex Meder SIL reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -1,4 +1,4 @@
-49668115121824
+54478980670840
 elektor
 7SEGMENT
 
@@ -69,6 +69,13 @@ Conn-Display-Top
 0
 13
 13
+elektor
+DB25-F-CI
+
+
+0
+25
+25
 elektor
 DI41612-AC-F
 Connecteur DIN Europe 96 contacts AC femelle droit
@@ -183,6 +190,20 @@ K4-K6
 3
 elektor
 Quartz
+
+
+0
+3
+2
+elektor
+RCA_CI
+
+
+0
+2
+2
+elektor
+RCA_CI_1
 
 
 0

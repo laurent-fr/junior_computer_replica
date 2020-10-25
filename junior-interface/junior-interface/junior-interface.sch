@@ -1264,10 +1264,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 6500 4050 6500
 $Comp
-L Connector:Conn_01x03_Male J1
+L Connector:Conn_01x03_Male J12
 U 1 1 5FD8F3EF
 P 1900 7450
-F 0 "J1" V 2150 7900 50  0000 R CNN
+F 0 "J12" V 2150 7900 50  0000 R CNN
 F 1 "Conn_01x03_Male" V 2050 8450 50  0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1900 7450 50  0001 C CNN
 F 3 "~" H 1900 7450 50  0001 C CNN
@@ -1302,6 +1302,10 @@ Wire Wire Line
 	2000 7200 2250 7200
 Wire Wire Line
 	2250 7200 2250 7300
+Text Label 10050 850  0    50   ~ 0
+AB[0..15]
+Text Label 10050 1150 0    50   ~ 0
+DB[0..7]
 Wire Bus Line
 	8050 850  8050 3700
 Wire Bus Line
@@ -1310,8 +1314,4 @@ Wire Bus Line
 	800  1150 10500 1150
 Wire Bus Line
 	800  850  8050 850 
-Text Label 10050 850  0    50   ~ 0
-AB[0..15]
-Text Label 10050 1150 0    50   ~ 0
-DB[0..7]
 $EndSCHEMATC

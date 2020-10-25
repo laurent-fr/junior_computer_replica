@@ -1145,20 +1145,6 @@ Wire Wire Line
 	2900 6000 1550 6000
 Wire Wire Line
 	1550 6100 2900 6100
-Wire Bus Line
-	3250 1300 3250 7350
-Wire Bus Line
-	7250 2650 9750 2650
-Wire Bus Line
-	5750 800  9550 800 
-Wire Bus Line
-	5750 800  5750 7400
-Wire Bus Line
-	3000 1300 3000 7350
-Wire Bus Line
-	7600 3100 7600 6000
-Wire Bus Line
-	5450 650  5450 7400
 Text Label 2700 2200 0    50   ~ 0
 DB1
 Text Label 2700 2300 0    50   ~ 0
@@ -1215,4 +1201,18 @@ Text Label 3000 1800 1    50   ~ 0
 DB[0..7]
 Text Label 3250 1800 1    50   ~ 0
 AB[0..15]
+Wire Bus Line
+	3250 1300 3250 7350
+Wire Bus Line
+	7250 2650 9750 2650
+Wire Bus Line
+	5750 800  9550 800 
+Wire Bus Line
+	5750 800  5750 7400
+Wire Bus Line
+	3000 1300 3000 7350
+Wire Bus Line
+	7600 3100 7600 6000
+Wire Bus Line
+	5450 650  5450 7400
 $EndSCHEMATC
