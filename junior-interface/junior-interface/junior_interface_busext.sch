@@ -548,17 +548,6 @@ Text GLabel 2050 6600 2    50   Output ~ 0
 K1
 Text GLabel 2450 6500 2    50   Output ~ 0
 K2
-$Comp
-L power:GND #PWR0112
-U 1 1 5F9C054F
-P 2350 7200
-F 0 "#PWR0112" H 2350 6950 50  0001 C CNN
-F 1 "GND" V 2355 7072 50  0000 R CNN
-F 2 "" H 2350 7200 50  0001 C CNN
-F 3 "" H 2350 7200 50  0001 C CNN
-	1    2350 7200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1550 6200 2050 6200
 Wire Wire Line
@@ -694,21 +683,7 @@ $EndComp
 Wire Wire Line
 	6150 6050 6050 6050
 Wire Wire Line
-	6050 6050 6050 6150
-Wire Wire Line
-	6150 6150 6050 6150
-Connection ~ 6050 6150
-Wire Wire Line
-	6050 6150 6050 6250
-Wire Wire Line
 	6150 4100 6050 4100
-Wire Wire Line
-	6050 4100 6050 4200
-Wire Wire Line
-	6150 4200 6050 4200
-Connection ~ 6050 4200
-Wire Wire Line
-	6050 4200 6050 4350
 Wire Bus Line
 	5450 650  9550 650 
 Entry Wire Line
@@ -1162,37 +1137,37 @@ DB7
 Text Label 2700 2900 0    50   ~ 0
 DB6
 Text Label 2650 4600 0    50   ~ 0
-AB15
-Text Label 2650 4700 0    50   ~ 0
 AB14
+Text Label 2650 4700 0    50   ~ 0
+AB15
 Text Label 2650 4800 0    50   ~ 0
-AB13
-Text Label 2650 4900 0    50   ~ 0
 AB12
+Text Label 2650 4900 0    50   ~ 0
+AB13
 Text Label 2650 5000 0    50   ~ 0
-AB11
-Text Label 2650 5100 0    50   ~ 0
 AB10
+Text Label 2650 5100 0    50   ~ 0
+AB11
 Text Label 2650 5200 0    50   ~ 0
-AB9
-Text Label 2650 5300 0    50   ~ 0
 AB8
+Text Label 2650 5300 0    50   ~ 0
+AB9
 Text Label 2650 5400 0    50   ~ 0
-AB7
-Text Label 2650 5500 0    50   ~ 0
 AB6
+Text Label 2650 5500 0    50   ~ 0
+AB7
 Text Label 2650 5600 0    50   ~ 0
-AB5
-Text Label 2650 5700 0    50   ~ 0
 AB4
+Text Label 2650 5700 0    50   ~ 0
+AB5
 Text Label 2650 5800 0    50   ~ 0
-AB3
-Text Label 2650 5900 0    50   ~ 0
 AB2
+Text Label 2650 5900 0    50   ~ 0
+AB3
 Text Label 2650 6000 0    50   ~ 0
-AB1
-Text Label 2650 6100 0    50   ~ 0
 AB0
+Text Label 2650 6100 0    50   ~ 0
+AB1
 Text GLabel 3000 1300 1    50   BiDi ~ 0
 DB[0..7]
 Text GLabel 3250 1300 1    50   Output ~ 0
@@ -1201,6 +1176,36 @@ Text Label 3000 1800 1    50   ~ 0
 DB[0..7]
 Text Label 3250 1800 1    50   ~ 0
 AB[0..15]
+Wire Wire Line
+	6050 4100 6050 4350
+Wire Wire Line
+	6050 6050 6050 6250
+$Comp
+L power:+5V #PWR0183
+U 1 1 5F98E2EF
+P 6000 6150
+F 0 "#PWR0183" H 6000 6000 50  0001 C CNN
+F 1 "+5V" H 6015 6323 50  0000 C CNN
+F 2 "" H 6000 6150 50  0001 C CNN
+F 3 "" H 6000 6150 50  0001 C CNN
+	1    6000 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0184
+U 1 1 5F98E8A0
+P 6000 4200
+F 0 "#PWR0184" H 6000 4050 50  0001 C CNN
+F 1 "+5V" H 6015 4373 50  0000 C CNN
+F 2 "" H 6000 4200 50  0001 C CNN
+F 3 "" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 4200 6000 4200
+Wire Wire Line
+	6150 6150 6000 6150
 Wire Bus Line
 	3250 1300 3250 7350
 Wire Bus Line

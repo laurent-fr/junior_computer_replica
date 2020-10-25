@@ -630,7 +630,7 @@ DB6
 Text Label 2750 1450 1    50   ~ 0
 DB7
 Text Label 3450 1450 1    50   ~ 0
-ABO
+AB0
 Text Label 3100 1450 1    50   ~ 0
 AB10
 Wire Wire Line

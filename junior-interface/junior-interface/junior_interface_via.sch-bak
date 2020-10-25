@@ -454,11 +454,11 @@ Wire Wire Line
 	4150 5300 4600 5300
 Wire Wire Line
 	3650 5150 3650 5300
+Connection ~ 3650 5300
+Wire Wire Line
+	3650 5300 4150 5300
 Wire Bus Line
 	1650 1500 8150 1500
 Wire Bus Line
 	4100 1250 8150 1250
-Connection ~ 3650 5300
-Wire Wire Line
-	3650 5300 4150 5300
 $EndSCHEMATC
