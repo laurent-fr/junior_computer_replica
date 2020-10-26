@@ -831,7 +831,7 @@ F 1 "1k" H 2980 3155 50  0000 R CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA9v_Horizontal_Px10.0mm_Py5.0mm" H 3050 3200 50  0001 C CNN
 F 3 "~" H 3050 3200 50  0001 C CNN
 	1    3050 3200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0169
