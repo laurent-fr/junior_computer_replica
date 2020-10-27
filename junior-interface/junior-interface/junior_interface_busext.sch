@@ -449,12 +449,12 @@ Wire Wire Line
 $Comp
 L power:+12V #PWR0108
 U 1 1 5F98F62B
-P 1750 4300
-F 0 "#PWR0108" H 1750 4150 50  0001 C CNN
-F 1 "+12V" V 1765 4428 50  0000 L CNN
-F 2 "" H 1750 4300 50  0001 C CNN
-F 3 "" H 1750 4300 50  0001 C CNN
-	1    1750 4300
+P 2050 4200
+F 0 "#PWR0108" H 2050 4050 50  0001 C CNN
+F 1 "+12V" V 2065 4328 50  0000 L CNN
+F 2 "" H 2050 4200 50  0001 C CNN
+F 3 "" H 2050 4200 50  0001 C CNN
+	1    2050 4200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -462,12 +462,12 @@ Wire Wire Line
 $Comp
 L power:-5V #PWR0109
 U 1 1 5F992A76
-P 1750 4400
-F 0 "#PWR0109" H 1750 4500 50  0001 C CNN
-F 1 "-5V" V 1765 4528 50  0000 L CNN
-F 2 "" H 1750 4400 50  0001 C CNN
-F 3 "" H 1750 4400 50  0001 C CNN
-	1    1750 4400
+P 2050 4500
+F 0 "#PWR0109" H 2050 4600 50  0001 C CNN
+F 1 "-5V" V 2065 4628 50  0000 L CNN
+F 2 "" H 2050 4500 50  0001 C CNN
+F 3 "" H 2050 4500 50  0001 C CNN
+	1    2050 4500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -494,27 +494,27 @@ F 3 "" H 4900 7200 50  0001 C CNN
 	1    4900 7200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2050 1800 2    50   Output ~ 0
-RES
 Text GLabel 2300 1900 2    50   Output ~ 0
+RES
+Text GLabel 2050 1800 2    50   Output ~ 0
 RDY
 Wire Wire Line
 	2050 1800 1550 1800
 Wire Wire Line
 	2300 1900 1550 1900
-Text GLabel 2450 3300 2    50   Output ~ 0
-NMI
 Text GLabel 2050 3200 2    50   Output ~ 0
+NMI
+Text GLabel 2450 3300 2    50   Output ~ 0
 IRQ
-Text GLabel 2050 4200 2    50   Output ~ 0
+Text GLabel 1750 4300 2    50   Output ~ 0
 K4
-Text GLabel 2050 3800 2    50   Output ~ 0
-K5
 Text GLabel 2450 3900 2    50   Output ~ 0
+K5
+Text GLabel 2050 3800 2    50   Output ~ 0
 K6
-Text GLabel 2050 3600 2    50   Output ~ 0
-K7
 Text GLabel 2450 3700 2    50   Output ~ 0
+K7
+Text GLabel 2050 3600 2    50   Output ~ 0
 SO
 Wire Wire Line
 	1550 3200 2050 3200
@@ -530,28 +530,24 @@ Wire Wire Line
 	1550 3900 2450 3900
 Wire Wire Line
 	1550 4200 2050 4200
-Text GLabel 2050 4500 2    50   Output ~ 0
+Text GLabel 1750 4400 2    50   Output ~ 0
 K3
 Wire Wire Line
 	2050 4500 1550 4500
-Text GLabel 2450 6700 2    50   Output ~ 0
-RW
-Text GLabel 2050 7000 2    50   Output ~ 0
-RAM.RW
-Text GLabel 2050 6800 2    50   Output ~ 0
-PHI1
-Text GLabel 2050 6200 2    50   Output ~ 0
-PHI2
-Text GLabel 2450 6900 2    50   Output ~ 0
-EX
 Text GLabel 2050 6600 2    50   Output ~ 0
+RW
+Text GLabel 2050 7100 2    50   Output ~ 0
+RAM.RW
+Text GLabel 2450 6900 2    50   Output ~ 0
+PHI1
+Text GLabel 2050 6300 2    50   Output ~ 0
+PHI2
+Text GLabel 2050 6800 2    50   Output ~ 0
+EX
+Text GLabel 2450 6700 2    50   Output ~ 0
 K1
-Text GLabel 2450 6500 2    50   Output ~ 0
+Text GLabel 2450 6400 2    50   Output ~ 0
 K2
-Wire Wire Line
-	1550 6200 2050 6200
-Wire Wire Line
-	1550 6500 2450 6500
 Wire Wire Line
 	1550 6600 2050 6600
 Wire Wire Line
@@ -560,8 +556,6 @@ Wire Wire Line
 	1550 6800 2050 6800
 Wire Wire Line
 	1550 6900 2450 6900
-Wire Wire Line
-	1550 7000 2050 7000
 Entry Wire Line
 	5450 5950 5550 5850
 Entry Wire Line
@@ -1121,21 +1115,21 @@ Wire Wire Line
 Wire Wire Line
 	1550 6100 2900 6100
 Text Label 2700 2200 0    50   ~ 0
-DB1
-Text Label 2700 2300 0    50   ~ 0
 DB0
+Text Label 2700 2300 0    50   ~ 0
+DB1
 Text Label 2700 2400 0    50   ~ 0
-DB3
-Text Label 2700 2500 0    50   ~ 0
 DB2
+Text Label 2700 2500 0    50   ~ 0
+DB3
 Text Label 2700 2600 0    50   ~ 0
-DB5
-Text Label 2700 2700 0    50   ~ 0
 DB4
+Text Label 2700 2700 0    50   ~ 0
+DB5
 Text Label 2700 2800 0    50   ~ 0
-DB7
-Text Label 2700 2900 0    50   ~ 0
 DB6
+Text Label 2700 2900 0    50   ~ 0
+DB7
 Text Label 2650 4600 0    50   ~ 0
 AB14
 Text Label 2650 4700 0    50   ~ 0
@@ -1206,6 +1200,12 @@ Wire Wire Line
 	6150 4200 6000 4200
 Wire Wire Line
 	6150 6150 6000 6150
+Wire Wire Line
+	2050 6300 1550 6300
+Wire Wire Line
+	2450 6400 1550 6400
+Wire Wire Line
+	2050 7100 1550 7100
 Wire Bus Line
 	3250 1300 3250 7350
 Wire Bus Line
