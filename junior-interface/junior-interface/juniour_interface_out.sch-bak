@@ -169,7 +169,7 @@ Wire Wire Line
 Text GLabel 950  4500 0    50   Input ~ 0
 PA7
 Wire Wire Line
-	950  4500 1700 4500
+	950  4500 1150 4500
 Connection ~ 1700 4500
 Wire Wire Line
 	1700 4500 1700 4550
@@ -482,23 +482,23 @@ Wire Wire Line
 Wire Wire Line
 	2350 7250 2350 7300
 $Comp
-L Transistor_BJT:BC516 T3
+L Transistor_BJT:BC516 T2
 U 1 1 5F9A5A99
 P 6600 4850
-F 0 "T3" H 6791 4804 50  0000 L CNN
+F 0 "T2" H 6791 4804 50  0000 L CNN
 F 1 "BC516" H 6791 4895 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 6800 4775 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC516.pdf" H 6600 4850 50  0001 L CNN
 	1    6600 4850
 	1    0    0    1   
 $EndComp
-Text GLabel 5700 4850 0    50   Input ~ 0
+Text GLabel 8500 4850 0    50   Input ~ 0
 PB5
 $Comp
-L Device:R R15
+L Device:R R14
 U 1 1 5F9A6423
 P 6050 4850
-F 0 "R15" H 6120 4896 50  0000 L CNN
+F 0 "R14" H 6120 4896 50  0000 L CNN
 F 1 "10k" H 6120 4805 50  0000 L CNN
 F 2 "elektor:Res-5" V 5980 4850 50  0001 C CNN
 F 3 "~" H 6050 4850 50  0001 C CNN
@@ -574,44 +574,33 @@ F 3 "" H 6700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 5800 6700 5950
+	6700 5800 6700 5850
 $Comp
-L Device:R R17
+L Device:R R16
 U 1 1 5F9B5236
 P 6050 5450
-F 0 "R17" H 6120 5496 50  0000 L CNN
-F 1 "330" H 6120 5405 50  0000 L CNN
+F 0 "R16" H 6120 5496 50  0000 L CNN
+F 1 "100" H 6120 5405 50  0000 L CNN
 F 2 "elektor:Res-5" V 5980 5450 50  0001 C CNN
 F 3 "~" H 6050 5450 50  0001 C CNN
 	1    6050 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 5F9B574B
-P 5750 5650
-F 0 "J5" H 5858 5831 50  0000 C CNN
-F 1 "LED" H 5800 5750 50  0000 C CNN
-F 2 "" H 5750 5650 50  0001 C CNN
-F 3 "~" H 5750 5650 50  0001 C CNN
-	1    5750 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0165
 U 1 1 5F9B63FC
-P 6050 5950
-F 0 "#PWR0165" H 6050 5700 50  0001 C CNN
-F 1 "GND" H 6055 5777 50  0000 C CNN
-F 2 "" H 6050 5950 50  0001 C CNN
-F 3 "" H 6050 5950 50  0001 C CNN
-	1    6050 5950
+P 6050 6150
+F 0 "#PWR0165" H 6050 5900 50  0001 C CNN
+F 1 "GND" H 6055 5977 50  0000 C CNN
+F 2 "" H 6050 6150 50  0001 C CNN
+F 3 "" H 6050 6150 50  0001 C CNN
+	1    6050 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 5750 6050 5750
+	5950 5950 6050 5950
 Wire Wire Line
-	6050 5750 6050 5950
+	6050 5950 6050 6150
 Wire Wire Line
 	5950 5650 6050 5650
 Wire Wire Line
@@ -624,23 +613,23 @@ Connection ~ 6700 5150
 Wire Wire Line
 	6700 5150 6700 5200
 $Comp
-L Transistor_BJT:BC516 T2
+L Transistor_BJT:BC516 T3
 U 1 1 5F9C15AB
 P 9400 4850
-F 0 "T2" H 9591 4804 50  0000 L CNN
+F 0 "T3" H 9591 4804 50  0000 L CNN
 F 1 "BC516" H 9591 4895 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 9600 4775 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC516.pdf" H 9400 4850 50  0001 L CNN
 	1    9400 4850
 	1    0    0    1   
 $EndComp
-Text GLabel 8500 4850 0    50   Input ~ 0
+Text GLabel 5700 4850 0    50   Input ~ 0
 PB6
 $Comp
-L Device:R R14
+L Device:R R15
 U 1 1 5F9C15B6
 P 8850 4850
-F 0 "R14" H 8920 4896 50  0000 L CNN
+F 0 "R15" H 8920 4896 50  0000 L CNN
 F 1 "10k" H 8920 4805 50  0000 L CNN
 F 2 "elektor:Res-5" V 8780 4850 50  0001 C CNN
 F 3 "~" H 8850 4850 50  0001 C CNN
@@ -716,27 +705,16 @@ F 3 "" H 9500 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 5800 9500 5950
+	9500 5800 9500 5850
 $Comp
-L Device:R R16
+L Device:R R17
 U 1 1 5F9C15F5
 P 8850 5450
-F 0 "R16" H 8920 5496 50  0000 L CNN
-F 1 "100" H 8920 5405 50  0000 L CNN
+F 0 "R17" H 8920 5496 50  0000 L CNN
+F 1 "330" H 8920 5405 50  0000 L CNN
 F 2 "elektor:Res-5" V 8780 5450 50  0001 C CNN
 F 3 "~" H 8850 5450 50  0001 C CNN
 	1    8850 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 5F9C15FF
-P 8550 5650
-F 0 "J3" H 8658 5831 50  0000 C CNN
-F 1 "LED" H 8600 5750 50  0000 C CNN
-F 2 "" H 8550 5650 50  0001 C CNN
-F 3 "~" H 8550 5650 50  0001 C CNN
-	1    8550 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1271,7 +1249,7 @@ F 1 "5k" H 7480 2155 50  0000 R CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3005" H 7550 2200 50  0001 C CNN
 F 3 "~" H 7550 2200 50  0001 C CNN
 	1    7550 2200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C4
@@ -1567,10 +1545,10 @@ Wire Wire Line
 Wire Wire Line
 	10400 1700 10400 1950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0190
 U 1 1 5F9AB08B
 P 3900 5050
-F 0 "#PWR?" H 3900 4800 50  0001 C CNN
+F 0 "#PWR0190" H 3900 4800 50  0001 C CNN
 F 1 "GND" H 3905 4877 50  0000 C CNN
 F 2 "" H 3900 5050 50  0001 C CNN
 F 3 "" H 3900 5050 50  0001 C CNN
@@ -1581,4 +1559,154 @@ Wire Wire Line
 	4200 4950 3900 4950
 Wire Wire Line
 	3900 4950 3900 5050
+Wire Wire Line
+	6600 5800 6600 5850
+Wire Wire Line
+	6600 5850 6700 5850
+Connection ~ 6700 5850
+Wire Wire Line
+	6700 5850 6700 5950
+Wire Wire Line
+	6700 5850 6800 5850
+Wire Wire Line
+	6800 5850 6800 5800
+Wire Wire Line
+	9400 5800 9400 5850
+Wire Wire Line
+	9400 5850 9500 5850
+Connection ~ 9500 5850
+Wire Wire Line
+	9500 5850 9500 5950
+Wire Wire Line
+	9600 5850 9600 5800
+Wire Wire Line
+	9500 5850 9600 5850
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5FCE8E8C
+P 5750 5650
+AR Path="/5F9396FE/5FCE8E8C" Ref="J?"  Part="1" 
+AR Path="/5F939FEF/5FCE8E8C" Ref="J26"  Part="1" 
+F 0 "J26" V 5650 5700 50  0000 R CNN
+F 1 "D4" V 5813 5562 50  0000 R CNN
+F 2 "elektor:PIN" H 5750 5650 50  0001 C CNN
+F 3 "~" H 5750 5650 50  0001 C CNN
+	1    5750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5FCF6F9E
+P 5750 5950
+AR Path="/5F9396FE/5FCF6F9E" Ref="J?"  Part="1" 
+AR Path="/5F939FEF/5FCF6F9E" Ref="J27"  Part="1" 
+F 0 "J27" V 5650 6000 50  0000 R CNN
+F 1 " " V 5813 5862 50  0000 R CNN
+F 2 "elektor:PIN" H 5750 5950 50  0001 C CNN
+F 3 "~" H 5750 5950 50  0001 C CNN
+	1    5750 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5FD04FCB
+P 8550 5650
+AR Path="/5F9396FE/5FD04FCB" Ref="J?"  Part="1" 
+AR Path="/5F939FEF/5FD04FCB" Ref="J28"  Part="1" 
+F 0 "J28" V 8450 5700 50  0000 R CNN
+F 1 "D5" V 8613 5562 50  0000 R CNN
+F 2 "elektor:PIN" H 8550 5650 50  0001 C CNN
+F 3 "~" H 8550 5650 50  0001 C CNN
+	1    8550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5FD13D36
+P 1150 5250
+AR Path="/5F9396FE/5FD13D36" Ref="J?"  Part="1" 
+AR Path="/5F939FEF/5FD13D36" Ref="J24"  Part="1" 
+F 0 "J24" V 1050 5300 50  0000 R CNN
+F 1 "P" V 1213 5162 50  0000 R CNN
+F 2 "elektor:PIN" H 1150 5250 50  0001 C CNN
+F 3 "~" H 1150 5250 50  0001 C CNN
+	1    1150 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5FD21EDB
+P 1150 5550
+AR Path="/5F9396FE/5FD21EDB" Ref="J?"  Part="1" 
+AR Path="/5F939FEF/5FD21EDB" Ref="J25"  Part="1" 
+F 0 "J25" V 1050 5600 50  0000 R CNN
+F 1 " Q" V 1213 5462 50  0000 R CNN
+F 2 "elektor:PIN" H 1150 5550 50  0001 C CNN
+F 3 "~" H 1150 5550 50  0001 C CNN
+	1    1150 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 5050 1150 4500
+Connection ~ 1150 4500
+Wire Wire Line
+	1150 4500 1700 4500
+Wire Wire Line
+	1150 5950 1150 5750
+Connection ~ 1150 5950
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5FD8DDA2
+P 3450 4400
+F 0 "J?" H 3558 4781 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 3400 4700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 3450 4400 50  0001 C CNN
+F 3 "~" H 3450 4400 50  0001 C CNN
+	1    3450 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4200 3800 4200
+Wire Wire Line
+	3800 4200 3800 3750
+Wire Wire Line
+	3800 3750 4200 3750
+Wire Wire Line
+	4200 4350 3950 4350
+Wire Wire Line
+	3950 4350 3950 4300
+Wire Wire Line
+	3950 4300 3650 4300
+Wire Wire Line
+	4200 4550 3900 4550
+Wire Wire Line
+	3900 4550 3900 4400
+Wire Wire Line
+	3900 4400 3650 4400
+Wire Wire Line
+	4200 4750 3850 4750
+Wire Wire Line
+	3850 4750 3850 4500
+Wire Wire Line
+	3850 4500 3650 4500
+Wire Wire Line
+	4200 5050 4000 5050
+Wire Wire Line
+	4000 5050 4000 4800
+Wire Wire Line
+	4000 4800 3800 4800
+Wire Wire Line
+	3800 4800 3800 4600
+Wire Wire Line
+	3800 4600 3650 4600
+Wire Wire Line
+	4200 5550 4000 5550
+Wire Wire Line
+	4000 5550 4000 5350
+Wire Wire Line
+	4000 5350 3750 5350
+Wire Wire Line
+	3750 5350 3750 4700
+Wire Wire Line
+	3750 4700 3650 4700
 $EndSCHEMATC
