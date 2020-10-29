@@ -1282,6 +1282,7 @@ F 3 "" H 1800 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 6100 1800 5800
+Connection ~ 1800 6100
 Wire Bus Line
 	8050 850  8050 3700
 Wire Bus Line
@@ -1290,5 +1291,4 @@ Wire Bus Line
 	800  1150 10500 1150
 Wire Bus Line
 	800  850  8050 850 
-Connection ~ 1800 6100
 $EndSCHEMATC
