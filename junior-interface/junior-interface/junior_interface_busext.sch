@@ -457,8 +457,6 @@ F 3 "" H 2050 4200 50  0001 C CNN
 	1    2050 4200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1750 4300 1550 4300
 $Comp
 L power:-5V #PWR0109
 U 1 1 5F992A76
@@ -470,8 +468,6 @@ F 3 "" H 2050 4500 50  0001 C CNN
 	1    2050 4500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1750 4400 1550 4400
 $Comp
 L power:GND #PWR0110
 U 1 1 5F995B60
@@ -506,14 +502,6 @@ Text GLabel 2050 3200 2    50   Output ~ 0
 NMI
 Text GLabel 2450 3300 2    50   Output ~ 0
 IRQ
-Text GLabel 1750 4300 2    50   Output ~ 0
-K4
-Text GLabel 2450 3900 2    50   Output ~ 0
-K5
-Text GLabel 2050 3800 2    50   Output ~ 0
-K6
-Text GLabel 2450 3700 2    50   Output ~ 0
-K7
 Text GLabel 2050 3600 2    50   Output ~ 0
 SO
 Wire Wire Line
@@ -523,15 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 3600 2050 3600
 Wire Wire Line
-	1550 3700 2450 3700
-Wire Wire Line
-	1550 3800 2050 3800
-Wire Wire Line
-	1550 3900 2450 3900
-Wire Wire Line
 	1550 4200 2050 4200
-Text GLabel 1750 4400 2    50   Output ~ 0
-K3
 Wire Wire Line
 	2050 4500 1550 4500
 Text GLabel 2050 6600 2    50   Output ~ 0
@@ -542,18 +522,8 @@ Text GLabel 2450 6900 2    50   Output ~ 0
 PHI1
 Text GLabel 2050 6300 2    50   Output ~ 0
 PHI2
-Text GLabel 2050 6800 2    50   Output ~ 0
-EX
-Text GLabel 2450 6700 2    50   Output ~ 0
-K1
-Text GLabel 2450 6400 2    50   Output ~ 0
-K2
 Wire Wire Line
 	1550 6600 2050 6600
-Wire Wire Line
-	1550 6700 2450 6700
-Wire Wire Line
-	1550 6800 2050 6800
 Wire Wire Line
 	1550 6900 2450 6900
 Entry Wire Line
@@ -1203,8 +1173,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 6300 1550 6300
 Wire Wire Line
-	2450 6400 1550 6400
-Wire Wire Line
 	2050 7100 1550 7100
 $Comp
 L power:GND #PWR0192
@@ -1227,6 +1195,7 @@ Wire Wire Line
 	4450 4100 4650 4100
 Wire Wire Line
 	4650 4100 4650 4050
+Connection ~ 4650 4050
 Wire Bus Line
 	3250 1300 3250 7350
 Wire Bus Line
@@ -1241,5 +1210,4 @@ Wire Bus Line
 	7600 3100 7600 6000
 Wire Bus Line
 	5450 650  5450 7400
-Connection ~ 4650 4050
 $EndSCHEMATC
