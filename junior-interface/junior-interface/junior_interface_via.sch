@@ -782,18 +782,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 3200 6150 3950
 Wire Wire Line
-	6150 3950 7150 3950
-Wire Wire Line
-	7150 3950 7150 5050
-Wire Wire Line
 	6450 3450 6450 3550
 Connection ~ 6450 3450
 Wire Wire Line
 	6250 3200 6250 3850
-Wire Wire Line
-	6250 3850 7250 3850
-Wire Wire Line
-	7250 3850 7250 5050
 Wire Wire Line
 	6050 3500 6050 5050
 Connection ~ 6050 3500
@@ -829,96 +821,61 @@ Text GLabel 3400 3200 0    50   Input ~ 0
 PB5
 Text GLabel 3400 3100 0    50   Input ~ 0
 PB0
-Wire Wire Line
-	3400 3100 3500 3100
-Wire Wire Line
-	3400 3200 3650 3200
-Wire Wire Line
-	3400 3300 3800 3300
-Wire Wire Line
-	3400 3400 3950 3400
-Wire Wire Line
-	3400 3500 4100 3500
 $Comp
 L Connector:Conn_01x01_Male J3
 U 1 1 5FC98A7A
-P 3500 3900
-F 0 "J3" V 3400 3950 50  0000 R CNN
-F 1 " " V 3563 3812 50  0000 R CNN
-F 2 "elektor:PIN" H 3500 3900 50  0001 C CNN
-F 3 "~" H 3500 3900 50  0001 C CNN
-	1    3500 3900
+P 3450 4450
+F 0 "J3" V 3350 4500 50  0000 R CNN
+F 1 " " V 3513 4362 50  0000 R CNN
+F 2 "elektor:PIN" H 3450 4450 50  0001 C CNN
+F 3 "~" H 3450 4450 50  0001 C CNN
+	1    3450 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Male J5
 U 1 1 5FCA1379
-P 3650 3900
-F 0 "J5" V 3550 3950 50  0000 R CNN
-F 1 " " V 3713 3812 50  0000 R CNN
-F 2 "elektor:PIN" H 3650 3900 50  0001 C CNN
-F 3 "~" H 3650 3900 50  0001 C CNN
-	1    3650 3900
+P 3600 4450
+F 0 "J5" V 3500 4500 50  0000 R CNN
+F 1 " " V 3663 4362 50  0000 R CNN
+F 2 "elektor:PIN" H 3600 4450 50  0001 C CNN
+F 3 "~" H 3600 4450 50  0001 C CNN
+	1    3600 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Male J21
 U 1 1 5FCA7A65
-P 3800 3900
-F 0 "J21" V 3700 3950 50  0000 R CNN
-F 1 " " V 3863 3812 50  0000 R CNN
-F 2 "elektor:PIN" H 3800 3900 50  0001 C CNN
-F 3 "~" H 3800 3900 50  0001 C CNN
-	1    3800 3900
+P 3750 4450
+F 0 "J21" V 3650 4500 50  0000 R CNN
+F 1 " " V 3813 4362 50  0000 R CNN
+F 2 "elektor:PIN" H 3750 4450 50  0001 C CNN
+F 3 "~" H 3750 4450 50  0001 C CNN
+	1    3750 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Male J22
 U 1 1 5FCAE0E4
-P 3950 3900
-F 0 "J22" V 3850 3950 50  0000 R CNN
-F 1 " " V 4013 3812 50  0000 R CNN
-F 2 "elektor:PIN" H 3950 3900 50  0001 C CNN
-F 3 "~" H 3950 3900 50  0001 C CNN
-	1    3950 3900
+P 3900 4450
+F 0 "J22" V 3800 4500 50  0000 R CNN
+F 1 " " V 3963 4362 50  0000 R CNN
+F 2 "elektor:PIN" H 3900 4450 50  0001 C CNN
+F 3 "~" H 3900 4450 50  0001 C CNN
+	1    3900 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Male J23
 U 1 1 5FCB47B1
-P 4100 3900
-F 0 "J23" V 4000 3950 50  0000 R CNN
-F 1 " " V 4163 3812 50  0000 R CNN
-F 2 "elektor:PIN" H 4100 3900 50  0001 C CNN
-F 3 "~" H 4100 3900 50  0001 C CNN
-	1    4100 3900
+P 4050 4450
+F 0 "J23" V 3950 4500 50  0000 R CNN
+F 1 " " V 4113 4362 50  0000 R CNN
+F 2 "elektor:PIN" H 4050 4450 50  0001 C CNN
+F 3 "~" H 4050 4450 50  0001 C CNN
+	1    4050 4450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3500 3700 3500 3100
-Connection ~ 3500 3100
-Wire Wire Line
-	3500 3100 4350 3100
-Wire Wire Line
-	3650 3700 3650 3200
-Connection ~ 3650 3200
-Wire Wire Line
-	3650 3200 4850 3200
-Wire Wire Line
-	3800 3700 3800 3300
-Connection ~ 3800 3300
-Wire Wire Line
-	4100 3700 4100 3500
-Connection ~ 4100 3500
-Wire Wire Line
-	4100 3500 6050 3500
-Wire Wire Line
-	3800 3300 4950 3300
-Wire Wire Line
-	3950 3700 3950 3400
-Connection ~ 3950 3400
-Wire Wire Line
-	3950 3400 5050 3400
 $Comp
 L power:GND #PWR0198
 U 1 1 5F9C5531
@@ -993,6 +950,51 @@ F 3 "" H 5550 6150 50  0001 C CNN
 	1    5550 6150
 	1    0    0    -1  
 $EndComp
+Text GLabel 3600 2500 0    50   Input ~ 0
+VIA
+Wire Wire Line
+	3600 2500 3700 2500
+Wire Wire Line
+	3700 2500 3700 2250
+Connection ~ 3700 2250
+Wire Wire Line
+	7250 3950 7250 5050
+Wire Wire Line
+	6150 3950 7250 3950
+Wire Wire Line
+	6250 3850 7150 3850
+Wire Wire Line
+	7150 3850 7150 5050
+Wire Wire Line
+	3400 3100 4350 3100
+Wire Wire Line
+	3400 3200 4850 3200
+Wire Wire Line
+	3400 3300 4950 3300
+Wire Wire Line
+	3400 3400 5050 3400
+Wire Wire Line
+	3400 3500 6050 3500
+Text GLabel 3450 4050 1    50   Input ~ 0
+OPB0
+Text GLabel 3600 4050 1    50   Input ~ 0
+OPB5
+Text GLabel 3750 4050 1    50   Input ~ 0
+OPB6
+Text GLabel 3900 4050 1    50   Input ~ 0
+OPB7
+Text GLabel 4050 4050 1    50   Input ~ 0
+OPA7
+Wire Wire Line
+	3450 4050 3450 4250
+Wire Wire Line
+	3600 4050 3600 4250
+Wire Wire Line
+	3750 4050 3750 4250
+Wire Wire Line
+	3900 4050 3900 4250
+Wire Wire Line
+	4050 4050 4050 4250
 Wire Bus Line
 	1650 1500 8150 1500
 Wire Bus Line

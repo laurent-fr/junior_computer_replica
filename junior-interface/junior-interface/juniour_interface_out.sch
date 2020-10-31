@@ -167,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 3950 2550 4100
 Text GLabel 950  4500 0    50   Input ~ 0
-PA7
+OPA7
 Wire Wire Line
 	950  4500 1150 4500
 Connection ~ 1700 4500
@@ -215,7 +215,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 5950 1150 6300
 Text GLabel 950  6150 0    50   Input ~ 0
-PA7
+OPB0
 Wire Wire Line
 	950  6150 1450 6150
 Connection ~ 1450 6150
@@ -493,7 +493,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC516.pdf" H 6600 4850 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 Text GLabel 8500 4850 0    50   Input ~ 0
-PB5
+OPB5
 $Comp
 L Device:R R14
 U 1 1 5F9A6423
@@ -624,7 +624,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC516.pdf" H 9400 4850 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 Text GLabel 5700 4850 0    50   Input ~ 0
-PB6
+OPB6
 $Comp
 L Device:R R15
 U 1 1 5F9C15B6
@@ -744,7 +744,7 @@ Connection ~ 9500 5150
 Wire Wire Line
 	9500 5150 9500 5200
 Text GLabel 950  2400 0    50   Input ~ 0
-PB7
+OPB7
 $Comp
 L Device:R R18
 U 1 1 5F9F5DE9
@@ -885,7 +885,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 3350 3050 3450
 Text GLabel 1250 1400 1    50   Input ~ 0
-PB5
+OPB5
 Wire Wire Line
 	1250 1400 1250 1650
 $Comp
