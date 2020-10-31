@@ -1,0 +1,181 @@
+
+*******************************************************************************
+                               JUNIOR_INTERFACE
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          g16v8s  Library DLIB-h-40-9
+Created         Sat Oct 31 18:31:18 2020
+Name            JUNIOR_INTERFACE 
+Partno          00 
+Revision        01 
+Date            31/10/2020 
+Designer        LaurentFr 
+Company         None 
+Assembly        None 
+Location        
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+EX =>
+    AB13 & AB14 & AB15
+
+READ =>
+    !AB14 & KX & RW & !VIA
+  # AB13 & AB14 & AB15 & !KX & RW & !VIA
+  # AB13 & AB14 & AB15 & KX & RW & VIA
+  # !AB13 & KX & RW & !VIA
+  # !AB15 & KX & RW & !VIA
+
+WRITE =>
+    !AB14 & KX & RW & !VIA
+  # AB13 & AB14 & AB15 & RW & !VIA
+  # AB13 & AB14 & AB15 & KX & !RW & !VIA
+  # AB13 & AB14 & AB15 & KX & RW & VIA
+  # !AB13 & KX & RW & !VIA
+  # !AB15 & KX & RW & !VIA
+
+ex =>
+    !AB13
+  # !AB14
+  # !AB15
+
+in =>
+    ex , KX , VIA , RW
+
+r =>
+    READ , WRITE
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    AB13                        3        V        -       -       -     
+    AB14                        2        V        -       -       -     
+    AB15                        1        V        -       -       -     
+    EX                          16       V        1       8       1     
+    KX                          5        V        -       -       -     
+    READ                        18       V        5       8       1     
+    RW                          8        V        -       -       -     
+    VIA                         6        V        -       -       -     
+    WITH                        9        V        -       -       -     
+    WRITE                       19       V        6       8       1     
+    ex                          0        I        3       -       -     
+    in                          0        F        -       -       -     
+    r                           0        F        -       -       -     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+
+
+===============================================================================
+                                   Fuse Plot
+===============================================================================
+
+Syn   02192 - Ac0   02193 x 
+
+Pin #19  02048  Pol -  02120  Ac1 x 
+ 00000 -x----------x----x------x------- 
+ 00032 x-x-x------------x------x------- 
+ 00064 x-x-x-------x----x-------x------ 
+ 00096 x-x-x-------x---x-------x------- 
+ 00128 -----x------x----x------x------- 
+ 00160 ---x--------x----x------x------- 
+ 00192 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00224 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Pin #18  02049  Pol -  02121  Ac1 x 
+ 00256 -x----------x----x------x------- 
+ 00288 x-x-x--------x---x------x------- 
+ 00320 x-x-x-------x---x-------x------- 
+ 00352 -----x------x----x------x------- 
+ 00384 ---x--------x----x------x------- 
+ 00416 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00448 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00480 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Pin #17  02050  Pol x  02122  Ac1 - 
+ 00512 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00544 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00576 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00608 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00640 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00672 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00704 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00736 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Pin #16  02051  Pol x  02123  Ac1 x 
+ 00768 x-x-x--------------------------- 
+ 00800 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00832 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00864 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00896 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00928 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00960 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 00992 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Pin #15  02052  Pol x  02124  Ac1 - 
+ 01024 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01056 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01088 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01120 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01152 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01184 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01216 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01248 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Pin #14  02053  Pol x  02125  Ac1 - 
+ 01280 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01312 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01344 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01376 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01408 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01440 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01472 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01504 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Pin #13  02054  Pol x  02126  Ac1 - 
+ 01536 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01568 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01600 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01632 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01664 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01696 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01728 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01760 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Pin #12  02055  Pol x  02127  Ac1 - 
+ 01792 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01824 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01856 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01888 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01920 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01952 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 01984 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ 02016 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+
+
+LEGEND    X : fuse not blown 
+          - : fuse blown 
+
+===============================================================================
+                                 Chip Diagram
+===============================================================================
+
+                               ______________
+                              |JUNIOR_INTERFA|
+                     AB15 x---|1           20|---x Vcc                      
+                     AB14 x---|2           19|---x WRITE                    
+                     AB13 x---|3           18|---x READ                     
+                          x---|4           17|---x                          
+                       KX x---|5           16|---x EX                       
+                      VIA x---|6           15|---x                          
+                          x---|7           14|---x                          
+                       RW x---|8           13|---x                          
+                     WITH x---|9           12|---x                          
+                      GND x---|10          11|---x                          
+                              |______________|
+

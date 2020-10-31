@@ -1,0 +1,60 @@
+Name     JUNIOR_INTERFACE ;
+PartNo   00 ;
+Date     31/10/2020 ;
+Revision 01 ;
+Designer LaurentFr ;
+Company  None ;
+Assembly None ;
+Location  ;
+Device   g16v8;
+
+
+/* *************** INPUT PINS *********************/
+PIN 1 = AB15;
+PIN 2 = AB14;
+PIN 3 = AB13;
+
+PIN  8 = RW ;           
+PIN  6  = VIA ;           
+PIN  5 = KX ;                
+PIN 9 = WITH ;
+
+/* *************** OUTPUT PINS *********************/
+PIN  16 = EX ;
+PIN  18 =  READ ;              
+PIN  19 =  WRITE ;
+
+ex = !(AB13 & AB14 & AB15);
+EX = ex;         
+
+FIELD in = [ex, KX, VIA, RW];
+
+FIELD r = [READ, WRITE];
+
+$DEFINE   L   'b'0
+$DEFINE   H   'b'1
+
+r =    in:0 & [L,L]
+	# in:1 & [H,H]
+	# in:2 & [L,L]
+	# in:3 & [L,L]
+	# in:4 & [L,H]
+	# in:5 & [L,H]
+	# in:6 & [L,L]
+	# in:7 & [H,H]
+	# in:8 & [L,L]
+	# in:9 & [L,L]
+	# in:A & [L,L]
+	# in:B & [L,L]
+	# in:C & [L,L]
+	# in:D & [H,H]
+	# in:E & [L,L]
+	# in:F & [L,L]
+
+ ;
+
+
+
+
+
+
