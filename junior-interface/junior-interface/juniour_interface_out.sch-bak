@@ -64,7 +64,7 @@ U 1 1 5FDC9F5A
 P 1800 4750
 F 0 "T1" H 1991 4796 50  0000 L CNN
 F 1 "BC547" H 1991 4705 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 2000 4675 50  0001 L CIN
+F 2 "elektor:TO-92" H 2000 4675 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 1800 4750 50  0001 L CNN
 	1    1800 4750
 	-1   0    0    -1  
@@ -487,7 +487,7 @@ U 1 1 5F9A5A99
 P 6600 4850
 F 0 "T2" H 6791 4804 50  0000 L CNN
 F 1 "BC516" H 6791 4895 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 6800 4775 50  0001 L CIN
+F 2 "elektor:TO-92" H 6800 4775 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC516.pdf" H 6600 4850 50  0001 L CNN
 	1    6600 4850
 	1    0    0    1   
@@ -618,7 +618,7 @@ U 1 1 5F9C15AB
 P 9400 4850
 F 0 "T3" H 9591 4804 50  0000 L CNN
 F 1 "BC516" H 9591 4895 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 9600 4775 50  0001 L CIN
+F 2 "elektor:TO-92" H 9600 4775 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC516.pdf" H 9400 4850 50  0001 L CNN
 	1    9400 4850
 	1    0    0    1   
@@ -806,7 +806,7 @@ U 1 1 5F9FD959
 P 3050 3200
 F 0 "P2" H 2980 3246 50  0000 R CNN
 F 1 "1k" H 2980 3155 50  0000 R CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA9v_Horizontal_Px10.0mm_Py5.0mm" H 3050 3200 50  0001 C CNN
+F 2 "elektor:POT" H 3050 3200 50  0001 C CNN
 F 3 "~" H 3050 3200 50  0001 C CNN
 	1    3050 3200
 	1    0    0    1   

@@ -5,7 +5,7 @@
   {Program "CUPL(WM) Version 5.0a"}
   {DBtype "Schematic"}
   {DBvrev 1.01}
-  {DBtime "Sat Oct 31 18:31:18 2020 "}
+  {DBtime "Sun Nov 01 14:55:14 2020 "}
   {DBunit "MIL"}
   {DBgrid 10}
   {Lyrstr "WIRES" 1 "BUS" 1 "GATE" 2 "IEEE" 2 "PINFUN" 3 "PINNUM" 1 
@@ -33,27 +33,25 @@
  {SYMBOL
   {PIN_DEF
    [Ly "PINCON"]
-   {P AB15 {Pt "INPUT"}{Lq 0}{Ploc 100 180}}
-   {P AB14 {Pt "INPUT"}{Lq 0}{Ploc 100 160}}
-   {P AB13 {Pt "INPUT"}{Lq 0}{Ploc 100 140}}
-   {P KX {Pt "INPUT"}{Lq 0}{Ploc 100 120}}
-   {P VIA {Pt "INPUT"}{Lq 0}{Ploc 100 100}}
-   {P RW {Pt "INPUT"}{Lq 0}{Ploc 100 80}}
-   {P WITH {Pt "INPUT"}{Lq 0}{Ploc 100 60}}
-   {P READ {Pt "INPUT"}{Lq 0}{Ploc 100 40}}
-   {P WRITE {Pt "INPUT"}{Lq 0}{Ploc 100 20}}
-   {P EX {Pt "I/O"}{Lq 0}{Ploc 280 20}}
+   {P AB15 {Pt "INPUT"}{Lq 0}{Ploc 100 140}}
+   {P AB14 {Pt "INPUT"}{Lq 0}{Ploc 100 120}}
+   {P AB13 {Pt "INPUT"}{Lq 0}{Ploc 100 100}}
+   {P KX {Pt "INPUT"}{Lq 0}{Ploc 100 80}}
+   {P VIA {Pt "INPUT"}{Lq 0}{Ploc 100 60}}
+   {P RW {Pt "INPUT"}{Lq 0}{Ploc 100 40}}
+   {P WITH {Pt "INPUT"}{Lq 0}{Ploc 100 20}}
+   {P EX {Pt "I/O"}{Lq 0}{Ploc 290 20}}
+   {P READ {Pt "I/O"}{Lq 0}{Ploc 290 40}}
+   {P WRITE {Pt "I/O"}{Lq 0}{Ploc 290 60}}
   }
 
   {PKG
    [Ly "REFDES"]
    [Ts 25][Tj "CB"][Tr 0][Tm "N"]
-   {Rdl 190 210}
+   {Rdl 195 170}
 
    [Ly "PINNUM"]
    [Ts 15][Tj "RC"]
-   {Pnl 120 190}
-   {Pnl 120 170}
    {Pnl 120 150}
    {Pnl 120 130}
    {Pnl 120 110}
@@ -62,17 +60,17 @@
    {Pnl 120 50}
    {Pnl 120 30}
    [Ts 15][Tj "LC"]
-   {Pnl 260 30}
+   {Pnl 270 30}
+   {Pnl 270 50}
+   {Pnl 270 70}
 
-   {Sd A 1 2 3 5 6 8 9 18 19 16}
+   {Sd A 1 2 3 5 6 8 9 16 18 19}
   }
 
   {PIC
    [Ly "GATE"]
    [Ts 15][Tj "LC"][Tr 0][Tm "N"]
-   {R 130 200 250 0}
-   {L 130 180 100 180}
-   {L 130 160 100 160}
+   {R 130 160 260 0}
    {L 130 140 100 140}
    {L 130 120 100 120}
    {L 130 100 100 100}
@@ -80,23 +78,25 @@
    {L 130 60 100 60}
    {L 130 40 100 40}
    {L 130 20 100 20}
-   {L 250 20 280 20}
+   {L 260 20 290 20}
+   {L 260 40 290 40}
+   {L 260 60 290 60}
    [Ly "PINNAM"]
    [Tj "LC"]
-   {T "AB15" 140 180}
-   {T "AB14" 140 160}
-   {T "AB13" 140 140}
-   {T "KX" 140 120}
-   {T "VIA" 140 100}
-   {T "RW" 140 80}
-   {T "WITH" 140 60}
-   {T "READ" 140 40}
-   {T "WRITE" 140 20}
+   {T "AB15" 140 140}
+   {T "AB14" 140 120}
+   {T "AB13" 140 100}
+   {T "KX" 140 80}
+   {T "VIA" 140 60}
+   {T "RW" 140 40}
+   {T "WITH" 140 20}
    [Tj "RC"]
-   {T "EX" 240 20}
+   {T "EX" 250 20}
+   {T "READ" 250 40}
+   {T "WRITE" 250 60}
    [Ly "DEVICE"]
    [Tj "CT"]
-   {T "G16V8S" 190 -10}
+   {T "G16V8MA" 195 -10}
   }
 
   {ATR
@@ -107,7 +107,7 @@
    {EX
     [Ly "ATTR2"]
     [Ts 12][Tj "CT"][Tr 0][Tm "N"]
-    {At PLD C:\USERS\LAURENT\DOCUMENTS\KICAD\JUNIOR-COMPUTER\JUNIOR-INTERFACE\GAL-DOS\JUNIOR_INTERFACE 190 200}
+    {At PLD C:\USERS\LAURENT\DOCUMENTS\KICAD\JUNIOR-COMPUTER\JUNIOR-INTERFACE\GAL-DOS\JUNIOR_INTERFACE 195 160}
    }
   }
  }
@@ -131,11 +131,11 @@
    }
    {N WITH
    }
+   {N EX
+   }
    {N READ
    }
    {N WRITE
-   }
-   {N EX
    }
   }
 

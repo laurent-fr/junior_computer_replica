@@ -24,17 +24,16 @@ PIN  16 = EX ;
 PIN  18 =  READ ;              
 PIN  19 =  WRITE ;
 
-ex = !(AB13 & AB14 & AB15);
-EX = ex;         
-
-FIELD in = [ex, KX, VIA, RW];
+EX = !(AB13 & AB14 & AB15);
+        
+FIELD in = [WITH,EX, KX, VIA, RW];
 
 FIELD r = [READ, WRITE];
 
 $DEFINE   L   'b'0
 $DEFINE   H   'b'1
 
-r =    in:0 & [L,L]
+r = in:0 & [L,L]
 	# in:1 & [H,H]
 	# in:2 & [L,L]
 	# in:3 & [L,L]
@@ -46,10 +45,26 @@ r =    in:0 & [L,L]
 	# in:9 & [L,L]
 	# in:A & [L,L]
 	# in:B & [L,L]
-	# in:C & [L,L]
-	# in:D & [H,H]
+	# in:C & [L,H]
+	# in:D & [L,H]
 	# in:E & [L,L]
 	# in:F & [L,L]
+	# in:10 & [L,L]
+	# in:11 & [H,H]
+	# in:12 & [L,L]
+	# in:13 & [L,L]
+	# in:14 & [L,H]
+	# in:15 & [L,H]
+	# in:16 & [L,L]
+	# in:17 & [H,H]
+	# in:18 & [L,L]
+	# in:19 & [L,L]
+	# in:1A & [L,L]
+	# in:1B & [L,L]
+	# in:1C & [L,L]
+	# in:1D & [H,H]
+	# in:1E & [L,L]
+	# in:1F & [L,L]
 
  ;
 

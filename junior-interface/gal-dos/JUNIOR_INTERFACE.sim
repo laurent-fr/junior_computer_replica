@@ -12,7 +12,7 @@ PIN  19 =  WRITE
 %END
 
 %FIELD
-FIELD in = ex,KX,VIA,RW
+FIELD in = WITH,EX,KX,VIA,RW
 FIELD r = READ,WRITE
 %END
 
@@ -21,23 +21,24 @@ EX =>
     AB13 & AB14 & AB15
 
 READ =>
-    !AB14 & KX & RW & !VIA
-  # AB13 & AB14 & AB15 & !KX & RW & !VIA
-  # AB13 & AB14 & AB15 & KX & RW & VIA
-  # !AB13 & KX & RW & !VIA
-  # !AB15 & KX & RW & !VIA
+    EX & KX & RW & !VIA & WITH
+  # !EX & !KX & RW & !VIA
+  # !EX & KX & RW & VIA
 
 WRITE =>
-    !AB14 & KX & RW & !VIA
-  # AB13 & AB14 & AB15 & RW & !VIA
-  # AB13 & AB14 & AB15 & KX & !RW & !VIA
-  # AB13 & AB14 & AB15 & KX & RW & VIA
-  # !AB13 & KX & RW & !VIA
-  # !AB15 & KX & RW & !VIA
+    !EX & KX & !RW & !VIA & WITH
+  # !EX & RW & !VIA
+  # KX & !RW & !VIA & !WITH
+  # !EX & KX & RW & VIA
+  # EX & KX & RW & !VIA
 
-ex =>
-    !AB13
-  # !AB14
-  # !AB15
+EX.oe  =>
+    1 
+
+READ.oe  =>
+    1 
+
+WRITE.oe  =>
+    1 
 
 %END
