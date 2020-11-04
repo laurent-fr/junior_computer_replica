@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:junior-ram-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -818,6 +819,9 @@ Wire Wire Line
 Connection ~ 5500 1400
 Wire Wire Line
 	3950 1450 3950 1400
+Connection ~ 3950 1400
+Wire Wire Line
+	3950 1400 3850 1400
 Wire Bus Line
 	2600 950  2600 7550
 Wire Bus Line
@@ -828,7 +832,4 @@ Wire Bus Line
 	4450 3250 4450 6150
 Wire Bus Line
 	2300 800  2300 7550
-Connection ~ 3950 1400
-Wire Wire Line
-	3950 1400 3850 1400
 $EndSCHEMATC
