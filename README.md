@@ -1,6 +1,10 @@
 # Junior Computer Replica
 
-The Junior Computer is a 6505 SBC made by Elektor in 1980. It looks a lot like a KIM-1.
+![Junior Computer Front](img/junior_computer_front.jpg?raw=true "Junior Computer Front")
+
+![Junior Computer Back](img/junior_computer_back.jpg?raw=true "Junior Computer Back")
+
+The Junior Computer is a 6502 SBC made by Elektor in 1980. It looks a lot like a KIM-1.
 
 This is a replica PCB I made with KiCAD.
 
@@ -104,3 +108,5 @@ You can find test programs on http://retro.hansotten.nl
 * junior-ram : a RAM board for the computer. Not tested
 * junior-internal-bus : a small PCB for linking the computer and the interface board. Not tested
 * ram-adapter : replace 2x2114 by 1x6116 RAM. Not tested
+
+Any question ? --> Twitter @_Laurent_Fr_
