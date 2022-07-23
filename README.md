@@ -25,7 +25,6 @@ This work is licenced under CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
 | 9	| C5...C8, C10, C11, C14 | 	1µ 16V tantale | |
 | 1	| C12 |	470nF MKH | |
 | 2	| D1, D3 |	1N4148 | |
-| 1	| D2 |	LED | |
 | 1	| IC1 |	MC6502 | |
 | 1	| IC10 |	74LS01 | |
 | 1	| IC11 |	ULN2003 | |
@@ -62,6 +61,12 @@ The Digitast keys (https://www.digikey.com/catalog/en/partgroup/digitast-series/
 
 An other thing to consider is the marking : the black keys need white marking, which can be hard to do. So think of how you will do the marking before choosing the colors of the keys !
 
+## Ordering the PCB
+
+Use you favorite online PCB seller, and order 2 double-sided PCBs (display + computer) from the KiCad output files.
+
+The real ones from Elektor where blue on component side and red on solder side, but if you order a blue PCB it will be close enough (and very nice).
+
 ## Building the computer
 
 The building is pretty straightforward (look at the original documentation). Components are soldered on one side, buttons and disply on the other side.
@@ -70,7 +75,32 @@ S24 and S25 switchs needs wires from the switchs lugs to the PCB (I used cutoff 
 
 To connect the display to the main board, I used long SIL connectors (15-20mm long) soldered on both side, then I bent the display to ~30°
 
+Don't forget the two small wire jumpers on front side : one from ground to letter "D" and the other one from K6 to the center pin
+
+## Programming the EPROM
+
+I use a TL866 II plus for this, but anything that works is OK. 
+
+Program the 2716 with the file 2716_junior_monitor_ram_05_1980.bin
+
 ## First tests
 
-The power supply is available on both connectors, you just need 0v and +5V (1amp should be more than enough)
+The power supply is available on both connectors, you just need 0v and +5V (1amp should be more than enough).
 
+All the display should light up (check that the DISPLAY switch is ON). If you see some display ON, some display OFF, it could be a bad MC6532 (don't ask how I know that ...)
+
+If nothing happens, try the reset switch just in case.
+
+Typing numbers on keyboard should update the display.
+
+You can find test programs on http://retro.hansotten.nl
+
+# Status
+
+* junior-bus : Elektor expansion bus. Not tested, should be OK
+* junior-computer : the computer, built and tested OK
+* junior-computer-display: the 7 segments display, built and tested OK
+* junior-interface : the 2nd board adding various I/O to the computer WORK IN PROGRESS
+* junior-ram : a RAM board for the computer. Not tested
+* junior-internal-bus : a small PCB for linking the computer and the interface board. Not tested
+* ram-adapter : replace 2x2114 by 1x6116 RAM. Not tested
