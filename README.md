@@ -1,8 +1,8 @@
 # Junior Computer Replica
 
-![Junior Computer Front](img/junior_computer_front.jpg?raw=true "Junior Computer Front")
+![Junior Computer Front](img/junior_replica_front.jpg?raw=true "Junior Computer Front")
 
-![Junior Computer Back](img/junior_computer_back.jpg?raw=true "Junior Computer Back")
+![Junior Computer Back](img/junior_replica_back.jpg?raw=true "Junior Computer Back")
 
 The Junior Computer is a 6502 SBC made by Elektor in 1980. It looks a lot like a KIM-1.
 
