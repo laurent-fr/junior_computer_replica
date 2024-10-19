@@ -26,7 +26,7 @@ This work is licenced under CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
 | 1	| C1 |	10p | |
 | 1	| C2 |	47µ 6V tantale | |
 | 2	| C3, C4 |	100n MKH
-| 9	| C5...C8, C10, C11, C14 | 	1µ 16V tantale | |
+| 8	| C5...C9, C10, C11, C14 | 	1µ 16V tantale | |
 | 1	| C12 |	470nF MKH | |
 | 2	| D1, D3 |	1N4148 | |
 | 1	| IC1 |	MC6502 | |
@@ -42,7 +42,8 @@ This work is licenced under CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
 | 1	| J3 |	DIN41617-31 straight female | |
 | 2	| R17 R19 |	2k2 | |
 | 2	| R18 R20 |	68k | |
-| 7	| R2 R3 R4 R1 R16 R14 R15 |	3k3 | |
+| 1 | R1 | 330K | |
+| 6	| R2 R3 R4 R16 R14 R15 |	3k3 | |
 | 2	| R22 R21 |	1k | |
 | 1	| R23 |	820k | |
 | 1	| R5 |	4k7 | |
