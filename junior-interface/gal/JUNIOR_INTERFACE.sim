@@ -1,9 +1,9 @@
 %SIGNAL
-PIN   5 =  EX 
-PIN   6 =  KX 
+PIN   7 =  EX 
+PIN   5 =  KX 
 PIN  18 =  READ 
 PIN   8 =  RW 
-PIN   7 =  VIA 
+PIN   6 =  VIA 
 PIN   9 =  WITH 
 PIN  19 =  WRITE 
 %END

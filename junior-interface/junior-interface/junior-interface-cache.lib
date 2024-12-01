@@ -151,12 +151,11 @@ ENDDEF
 #
 # 74xx_74LS241
 #
-DEF 74xx_74LS241 U 0 40 Y Y 1 L N
+DEF 74xx_74LS241 U 0 40 Y Y 1 F N
 F0 "U" -300 650 50 H V C CNN
 F1 "74xx_74LS241" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS 74LS244
 $FPLIST
  DIP?20*
 $ENDFPLIST
@@ -174,7 +173,7 @@ X I2b 15 -500 -100 200 R 50 50 1 0 I
 X O1a 16 500 400 200 L 50 50 1 0 T
 X I3b 17 -500 -200 200 R 50 50 1 0 I
 X O0a 18 500 500 200 L 50 50 1 0 T
-X OEb 19 -500 -500 200 R 50 50 1 0 I I
+X OEb 19 -500 -500 200 R 50 50 1 0 I
 X I0a 2 -500 500 200 R 50 50 1 0 I
 X VCC 20 0 800 200 D 50 50 1 0 W
 X O3b 3 500 -200 200 L 50 50 1 0 T
@@ -322,32 +321,6 @@ X ~ 4 -300 0 200 R 50 50 1 2 I I
 X ~ 5 -300 -100 179 R 50 50 1 2 I I
 X ~ 6 -300 -200 150 R 50 50 1 2 I I
 X ~ 8 300 0 150 L 50 50 1 2 O
-ENDDRAW
-ENDDEF
-#
-# Comparator_LM311
-#
-DEF Comparator_LM311 U 0 5 Y Y 1 F N
-F0 "U" 150 250 50 H V L CNN
-F1 "Comparator_LM311" 150 150 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS LT1011
-$FPLIST
- SOIC*3.9x4.9mm*P1.27mm*
- DIP*W7.62mm*
- TSSOP*4.4x3mm*P0.65mm*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 200 0 -200 200 -200 -200 200 0 f
-X GND 1 0 -300 200 U 50 20 1 1 E
-X + 2 -300 100 100 R 50 50 1 1 I
-X - 3 -300 -100 100 R 50 50 1 1 I
-X V- 4 -100 -300 150 U 50 50 1 1 W
-X BAL 5 0 300 200 D 50 20 1 1 P
-X STRB 6 100 300 250 D 50 20 1 1 P
-X ~ 7 300 0 100 L 50 50 1 1 C
-X V+ 8 -100 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -811,9 +784,9 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 10 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -942,11 +915,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# junior_computer_2114
+# junior-interface-rescue_2114-junior_computer
 #
-DEF junior_computer_2114 IC 0 40 Y Y 1 F N
+DEF junior-interface-rescue_2114-junior_computer IC 0 40 Y Y 1 F N
 F0 "IC" -150 -50 50 H V C CNN
-F1 "junior_computer_2114" -100 -150 50 H V C CNN
+F1 "junior-interface-rescue_2114-junior_computer" -100 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -973,11 +946,11 @@ X GND 9 950 -250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# junior_computer_2716
+# junior-interface-rescue_2716-junior_computer
 #
-DEF junior_computer_2716 IC 0 40 Y Y 1 F N
+DEF junior-interface-rescue_2716-junior_computer IC 0 40 Y Y 1 F N
 F0 "IC" -50 0 50 H V C CNN
-F1 "junior_computer_2716" 0 -100 50 H V C CNN
+F1 "junior-interface-rescue_2716-junior_computer" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1010,11 +983,11 @@ X D0 9 200 450 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# junior_computer_6522
+# junior-interface-rescue_6522-junior_computer
 #
-DEF junior_computer_6522 IC 0 40 Y Y 1 F N
+DEF junior-interface-rescue_6522-junior_computer IC 0 40 Y Y 1 F N
 F0 "IC" 200 50 50 H V C CNN
-F1 "junior_computer_6522" 250 -50 50 H V C CNN
+F1 "junior-interface-rescue_6522-junior_computer" 250 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1063,11 +1036,36 @@ X PA7 9 900 -450 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# junior_computer_NE565
+# junior-interface-rescue_LM311-Comparator
 #
-DEF junior_computer_NE565 IC 0 40 Y Y 1 F N
+DEF junior-interface-rescue_LM311-Comparator U 0 5 Y Y 1 F N
+F0 "U" 150 250 50 H V L CNN
+F1 "junior-interface-rescue_LM311-Comparator" 150 150 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+ DIP*W7.62mm*
+ TSSOP*4.4x3mm*P0.65mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 200 0 -200 200 -200 -200 200 0 f
+X GND 1 0 -300 200 U 50 20 1 1 E
+X + 2 -300 100 100 R 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X V- 4 -100 -300 150 U 50 50 1 1 W
+X BAL 5 0 300 200 D 50 20 1 1 P
+X STRB 6 100 300 250 D 50 20 1 1 P
+X ~ 7 300 0 100 L 50 50 1 1 C
+X V+ 8 -100 300 150 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# junior-interface-rescue_NE565-junior_computer
+#
+DEF junior-interface-rescue_NE565-junior_computer IC 0 40 Y Y 1 F N
 F0 "IC" 150 350 50 H V C CNN
-F1 "junior_computer_NE565" -200 350 50 H V C CNN
+F1 "junior-interface-rescue_NE565-junior_computer" -200 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1085,11 +1083,11 @@ X TIM_CAP 9 600 -300 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# junior_computer_relay_reed
+# junior-interface-rescue_relay_reed-junior_computer
 #
-DEF junior_computer_relay_reed Re 0 40 Y Y 1 F N
+DEF junior-interface-rescue_relay_reed-junior_computer Re 0 40 Y Y 1 F N
 F0 "Re" 350 150 50 H V L CNN
-F1 "junior_computer_relay_reed" 350 50 50 H V L CNN
+F1 "junior-interface-rescue_relay_reed-junior_computer" 350 50 50 H V L CNN
 F2 "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A" 350 -50 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

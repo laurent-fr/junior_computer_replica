@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:junior-interface-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -92,7 +91,7 @@ Entry Wire Line
 Entry Wire Line
 	4550 1600 4650 1500
 $Comp
-L junior_computer:6522 IC1
+L junior-interface-rescue:6522-junior_computer IC1
 U 1 1 6010E98F
 P 5200 2500
 F 0 "IC1" H 6828 2546 50  0000 L CNN
@@ -822,10 +821,10 @@ PB5
 Text GLabel 3400 3100 0    50   Input ~ 0
 PB0
 $Comp
-L Connector:Conn_01x01_Male J3
+L Connector:Conn_01x01_Male J40
 U 1 1 5FC98A7A
 P 3450 4450
-F 0 "J3" V 3350 4500 50  0000 R CNN
+F 0 "J40" V 3350 4500 50  0000 R CNN
 F 1 " " V 3513 4362 50  0000 R CNN
 F 2 "elektor:PIN" H 3450 4450 50  0001 C CNN
 F 3 "~" H 3450 4450 50  0001 C CNN

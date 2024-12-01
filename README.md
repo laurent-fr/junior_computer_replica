@@ -33,7 +33,7 @@ This work is licenced under CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
 | 1	| IC10 |	74LS01 | |
 | 1	| IC11 |	ULN2003 | |
 | 1	| IC2 |	2716 | |
-| 1	| IC3 |	MC6532 | probably the first part too look at ! |
+| 1	| IC3 |	MC6532 | probably the first part to look at ! |
 | 2	| IC4 IC5 |	2114 | static RAM, search on Ebay |
 | 2	| IC7 IC6 |	74LS145 | |
 | 1	| IC8 |	NE556 | |
@@ -80,7 +80,9 @@ S24 and S25 switchs needs wires from the switchs lugs to the PCB (I used cutoff 
 
 To connect the display to the main board, I used long SIL connectors (15-20mm long) soldered on both side, then I bent the display to ~30°
 
-Don't forget the two small wire jumpers on front side : one from ground to letter "D" and the other one from K6 to the center pin
+Don't forget the two small wire jumpers on front side : one from ground to letter "D" and the other one from K6 to the center pin.
+
+If you want to use the file sticker-juniorcomputer.svg, first install the font "Microgramma D Extended Bold" on your system.
 
 ## Programming the EPROM
 
@@ -94,7 +96,7 @@ The power supply is available on both connectors, you just need 0v and +5V (1amp
 
 All the display should light up (check that the DISPLAY switch is ON). If you see some display ON, some display OFF, it could be a bad MC6532 (don't ask how I know that ...)
 
-If nothing happens, try the reset switch just in case.
+If nothing happens, press the reset switch to start the computer.
 
 Typing numbers on keyboard should update the display.
 
@@ -102,14 +104,19 @@ You can find test programs on http://retro.hansotten.nl
 
 # Status
 
-* junior-bus : Elektor expansion bus. Not tested, should be OK
+## Working
+
 * junior-computer : the computer, built and tested OK
 * junior-computer-display: the 7 segments display, built and tested OK
-* junior-interface : the 2nd board adding various I/O to the computer WORK IN PROGRESS
+* junior-interface : the 2nd board adding various I/O to the computer, built and tested OK
+* junior-internal-bus : a small PCB for linking the computer and the interface board, built and tested OK
+
+## Not tested
+
+* junior-bus : Elektor expansion bus. Not tested, should be OK
 * junior-ram : a RAM board for the computer. Not tested
-* junior-internal-bus : a small PCB for linking the computer and the interface board. Not tested
 * ram-adapter : replace 2x2114 by 1x6116 RAM. Not tested
 
 ```
-Any question ? --> Twitter @_Laurent_Fr_
+Any question ? --> Mastodon @LaurentFr@piaille.fr
 ```

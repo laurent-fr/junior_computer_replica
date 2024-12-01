@@ -1,0 +1,276 @@
+(module DIN-41617-31-M (layer F.Cu) (tedit 5FA6702C)
+  (fp_text reference REF** (at 21.59 -3.81) (layer F.SilkS) hide
+    (effects (font (size 1.5 2) (thickness 0.375)))
+  )
+  (fp_text value DIN-41617-31-M (at 33.02 -3.81) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user 1 (at 70 2.5) (layer F.SilkS)
+    (effects (font (size 1.4 1.8) (thickness 0.25)))
+  )
+  (fp_text user 31 (at -10 2.5) (layer F.SilkS)
+    (effects (font (size 1.4 1.8) (thickness 0.25)))
+  )
+  (fp_line (start 70 7.5) (end 70 12) (layer F.SilkS) (width 0.3))
+  (fp_line (start 75 12) (end -15 12) (layer F.SilkS) (width 0.3))
+  (fp_line (start -15 12) (end -15 4) (layer F.SilkS) (width 0.3))
+  (fp_line (start -10 7.5) (end 70 7.5) (layer F.SilkS) (width 0.3))
+  (fp_line (start 75 4) (end 75 12) (layer F.SilkS) (width 0.3))
+  (fp_line (start -10 7.5) (end -10 12) (layer F.SilkS) (width 0.3))
+  (fp_line (start 70 7.5) (end 71 4) (layer F.SilkS) (width 0.3))
+  (fp_line (start 71 4) (end 75 4) (layer F.SilkS) (width 0.3))
+  (fp_line (start -10 7.5) (end -11 4) (layer F.SilkS) (width 0.3))
+  (fp_line (start -11 4) (end -15 4) (layer F.SilkS) (width 0.3))
+  (pad 31 thru_hole custom (at -7.62 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 29 thru_hole custom (at -2.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 27 thru_hole custom (at 2.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 25 thru_hole custom (at 7.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 23 thru_hole custom (at 12.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 21 thru_hole custom (at 17.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 19 thru_hole custom (at 22.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 17 thru_hole custom (at 27.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 15 thru_hole custom (at 32.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 13 thru_hole custom (at 37.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 11 thru_hole custom (at 42.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 9 thru_hole custom (at 47.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 7 thru_hole custom (at 52.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 5 thru_hole custom (at 57.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 3 thru_hole custom (at 62.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 1 thru_hole custom (at 67.5 5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 30 thru_hole custom (at -5 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 28 thru_hole custom (at 0 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 26 thru_hole custom (at 5.08 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 24 thru_hole custom (at 10 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 20 thru_hole custom (at 20 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 18 thru_hole custom (at 25 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 16 thru_hole custom (at 30 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 14 thru_hole custom (at 35 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 12 thru_hole custom (at 40 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 10 thru_hole custom (at 45 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 8 thru_hole custom (at 50 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 6 thru_hole custom (at 55 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 4 thru_hole custom (at 60 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad 2 thru_hole custom (at 65 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+  (pad "" np_thru_hole circle (at -12.5 7.5) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask)
+    (zone_connect 0))
+  (pad "" np_thru_hole circle (at 72.5 7.5) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask)
+    (zone_connect 0))
+  (pad 22 thru_hole custom (at 15 2.5) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -1.2 0.5) (xy -1.2 -0.5) (xy -0.5 -1.2) (xy 0.5 -1.2) (xy 1.2 -0.5)
+         (xy 1.2 0.5) (xy 0.5 1.2) (xy -0.5 1.2)) (width 0))
+    ))
+)

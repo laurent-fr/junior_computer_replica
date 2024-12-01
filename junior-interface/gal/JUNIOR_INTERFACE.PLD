@@ -11,9 +11,9 @@ Device   g16v8;
 
 /* *************** INPUT PINS *********************/
 PIN  8 = RW ;           
-PIN  7  = VIA ;           
-PIN  6 = KX ;                
-PIN  5 = EX ;
+PIN  6  = VIA ;           
+PIN  5 = KX ;                
+PIN  7 = EX ;
 PIN 9 = WITH ;
 
 /* *************** OUTPUT PINS *********************/

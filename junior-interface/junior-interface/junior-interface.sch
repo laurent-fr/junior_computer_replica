@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:junior-interface-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L junior_computer:2716 IC4
+L junior-interface-rescue:2716-junior_computer IC4
 U 1 1 5F92F96C
 P 1850 2000
 F 0 "IC4" H 1800 2000 50  0000 L CNN
@@ -26,7 +25,7 @@ F 3 "" H 1850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L junior_computer:2716 IC5
+L junior-interface-rescue:2716-junior_computer IC5
 U 1 1 5F93135B
 P 4300 2000
 F 0 "IC5" H 4250 2000 50  0000 L CNN
@@ -43,7 +42,7 @@ F0 "junior_interface_busext" 50
 F1 "junior_interface_busext.sch" 50
 $EndSheet
 $Comp
-L junior_computer:2114 IC2
+L junior-interface-rescue:2114-junior_computer IC2
 U 1 1 5F934A67
 P 6750 2000
 F 0 "IC2" H 6700 1950 50  0000 R CNN
@@ -54,7 +53,7 @@ F 3 "" H 6750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L junior_computer:2114 IC3
+L junior-interface-rescue:2114-junior_computer IC3
 U 1 1 5F9351A2
 P 9250 2000
 F 0 "IC3" H 9200 1950 50  0000 R CNN

@@ -5,7 +5,7 @@
   {Program "CUPL(WM) Version 5.0a"}
   {DBtype "Schematic"}
   {DBvrev 1.01}
-  {DBtime "Sat Oct 31 18:04:14 2020 "}
+  {DBtime "Thu Nov 28 20:47:45 2024 "}
   {DBunit "MIL"}
   {DBgrid 10}
   {Lyrstr "WIRES" 1 "BUS" 1 "GATE" 2 "IEEE" 2 "PINFUN" 3 "PINNUM" 1 
@@ -33,9 +33,9 @@
  {SYMBOL
   {PIN_DEF
    [Ly "PINCON"]
-   {P EX {Pt "INPUT"}{Lq 0}{Ploc 100 140}}
-   {P KX {Pt "INPUT"}{Lq 0}{Ploc 100 120}}
-   {P VIA {Pt "INPUT"}{Lq 0}{Ploc 100 100}}
+   {P KX {Pt "INPUT"}{Lq 0}{Ploc 100 140}}
+   {P VIA {Pt "INPUT"}{Lq 0}{Ploc 100 120}}
+   {P EX {Pt "INPUT"}{Lq 0}{Ploc 100 100}}
    {P RW {Pt "INPUT"}{Lq 0}{Ploc 100 80}}
    {P WITH {Pt "INPUT"}{Lq 0}{Ploc 100 60}}
    {P READ {Pt "INPUT"}{Lq 0}{Ploc 100 40}}
@@ -74,9 +74,9 @@
    {L 130 20 100 20}
    [Ly "PINNAM"]
    [Tj "LC"]
-   {T "EX" 140 140}
-   {T "KX" 140 120}
-   {T "VIA" 140 100}
+   {T "KX" 140 140}
+   {T "VIA" 140 120}
+   {T "EX" 140 100}
    {T "RW" 140 80}
    {T "WITH" 140 60}
    {T "READ" 140 40}
@@ -105,11 +105,11 @@
   }
 
   {NET_DEF
-   {N EX
-   }
    {N KX
    }
    {N VIA
+   }
+   {N EX
    }
    {N RW
    }
