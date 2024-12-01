@@ -72,7 +72,7 @@ This work is licenced under CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
 
 ## Building the interface
 
-Nothing special here, juste be careful : J1..J4 , J7 and J10 are on solder side. Do not folder the 2 wires jumpers near J7.
+Nothing special here, juste be careful : J1..J4 , J7 and J10 are on solder side. Do not forget the 2 wires jumpers near J7.
 
 Put a jumper between the center pin and "Ex_in" and an other one between "T" and "S"
 
