@@ -1,4 +1,4 @@
-# Junior Computer Replica
+pp# Junior Computer Replica
 
 ![Junior Computer Interface Top](/img/junior_interface_top.jpg?raw=true "Junior Interface Top")
 
@@ -78,7 +78,7 @@ Put a jumper between the center pin and "Ex_in" and an other one between "T" and
 
 You will also need to build the projects "junior-internal-bus" and "junior-interface-conn". 
 
-The internal bus is simply 2 DIN4162 connectors, just be careful to solder the connectors correctly : the ground plane should be on solder side, and look at where are +5V and GND to avoid soldering the board upside down.
+The internal bus is simply 2 DIN41612 connectors, just be careful to solder the connectors correctly : the ground plane should be on solder side, and look at where are +5V and GND to avoid soldering the board upside down.
 
 The interface connector is a small PCB to connect the top left connector of the Junior Computer to the pins on the interface board. Just put a wire on signals with the same name on both side. You don't need to connect GND and +5V, they are already available on the internal bus.
 
