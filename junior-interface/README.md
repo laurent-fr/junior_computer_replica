@@ -1,10 +1,10 @@
 # Junior Computer Replica
 
-![Junior Computer Interface Top](img/junior_interface_top.jpg?raw=true "Junior Interface Top")
+![Junior Computer Interface Top](/img/junior_interface_top.jpg?raw=true "Junior Interface Top")
 
-![Junior Computer Interface Bottom](img/junior_interface_bottom.jpg?raw=true "Junior Interface Bottom")
+![Junior Computer Interface Bottom](/img/junior_interface_bottom.jpg?raw=true "Junior Interface Bottom")
 
-![Junior Computer Inerface Back](img/junior_interface_back.jpg?raw=true "Junior Interface Back")
+![Junior Computer Inerface Back](/img/junior_interface_back.jpg?raw=true "Junior Interface Back")
 
 This is a replica of the expansion board for the Junior Computer, published in Elektor magazine in 1981
 
