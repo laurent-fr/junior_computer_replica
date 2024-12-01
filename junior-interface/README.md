@@ -1,4 +1,4 @@
-pp# Junior Computer Replica
+depp# Junior Computer Replica
 
 ![Junior Computer Interface Top](/img/junior_interface_top.jpg?raw=true "Junior Interface Top")
 
@@ -94,6 +94,6 @@ Program the 2 eproms "TM" and "PM" with "TM ESS506.bin" and "PM ESS507.bin" from
 
 Once everything is connected together (look at the pictures on the top of this page), the Junior Computer should power up as usual.
 
-You should be able to read and write data between $0200 and $03FF (the new 1K RAM), and read EPROM data at $0800 and $1000 (compare the firts bytes with the .bin files contents)
+You should be able to read and write data between $0200 and $03FF (the new 1K RAM), and read EPROM data at $0800 and $1000 (compare the firsts bytes with the .bin files contents)
 
 To setup the tape and the serial interfaces, you can follow the original articles availble at http://retro.hansotten.nl/6502-sbc/elektuur-junior/elektor-junior-literature/
