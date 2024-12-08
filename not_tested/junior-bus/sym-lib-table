@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "junior-bus-rescue")(type "KiCad")(uri "${KIPRJMOD}/junior-bus-rescue.kicad_sym")(options "")(descr ""))
+)
