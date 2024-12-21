@@ -34,7 +34,7 @@ You also need to build the "junior-bus" project.
 You have 8 sockets available, where you can install either 8Kb RAMs (6264) or 8Kb EPROMs (27c64). Each socket is numbered from 1 to 8 and corresponds to 1/8 of total memory space : 
 
 | Socket # | Memory range |
-| --- | --- |
+| ----------- | ----------- |
 | 1 | 0x0000 to 0x1FFF |
 | 2 | 0x2000 to 0x3FFF |
 | 3 | 0x4000 to 0x5FFF |
@@ -53,7 +53,7 @@ Socket 1 cannot be used (for now ...) because it's address space is used by the 
 You need to put an EPROM in socket 8 because reset vectors are now handled by this board. You just need to program the 6 last bytes, the remaining space if free to use. By default I suggest putting 0xFF on all un-used bytes.
 
 | EPROM addr | Memory addr | Data |
-| --- | --- | --- |
+| ----------- | ----------- |  ----------- |
 | 0000 | E000 | FF |
 | ... | ... | FF |
 | 1FF9 | FFF9 | FF |
@@ -62,7 +62,7 @@ You need to put an EPROM in socket 8 because reset vectors are now handled by th
 | 1FFC | FFFC | 1D |
 | 1FFD | FFFD | 1C |
 | 1FFE | FFFE | 32 |
-| 1FFG | FFFF | 1F |
+| 1FFF | FFFF | 1F |
 
 To run BASIC you will need at least 2 RAMs in sockets 2&3 (16Kb total), but you will have more space with 4 RAMS (sockets 2 to 5, 32Kb total).
 
