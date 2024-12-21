@@ -109,12 +109,13 @@ You can find test programs on http://retro.hansotten.nl
 * junior-computer : the computer, built and tested OK
 * junior-computer-display: the 7 segments display, built and tested OK
 * junior-interface : the 2nd board adding various I/O to the computer, built and tested OK
+* junior-internal-conn : internal bus between computer and interface, built and tested OK
 * junior-internal-bus : a small PCB for linking the computer and the interface board, built and tested OK
+* junior-bus : Elektor expansion bus. Not tested, built and tested OK
+* junior-universal-memory : a RAM/EPROM board for the computer, built and tested OK
 
 ## Not tested
 
-* junior-bus : Elektor expansion bus. Not tested, should be OK
-* junior-ram : a RAM board for the computer. Not tested
 * ram-adapter : replace 2x2114 by 1x6116 RAM. Not tested
 
 ```
