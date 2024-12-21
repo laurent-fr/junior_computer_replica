@@ -52,7 +52,7 @@ On SW1, every switch corresponding to an empty socket must be OPENED, close the 
 
 Socket 1 cannot be used (for now ...) because it's address space is used by the Junior Computer and the interface.
 
-You need to put an EPROM in socket 8 because reset vectors are now handled by this board. You just need to program the 6 last bytes, the remaining space if free to use. By default I suggest putting 0xFF on all un-used bytes.
+You need to put an EPROM in socket 8 because reset vectors are now handled by this board. You just need to program the 6 last bytes, the remaining space is free to use. By default I suggest putting 0xFF on all un-used bytes.
 
 | EPROM addr | Memory addr | Data |
 | ----------- | ----------- |  ----------- |
