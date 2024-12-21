@@ -1,5 +1,7 @@
 # Universal Memory
 
+![Universal Memory Card](/img/junior_universal_memory.jpg?raw=true "Universal Memory Card")
+
 This board is inspired by Elektor Universal Memory Card published in 1983 http://retro.hansotten.nl/uploads/junior/articlesuk/universalmemoryuk198303.pdf with a different address decoding.
 
 ## BOM
