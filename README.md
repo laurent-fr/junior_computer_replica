@@ -102,9 +102,15 @@ Typing numbers on keyboard should update the display.
 
 You can find test programs on http://retro.hansotten.nl
 
-# Status
+## Going further
 
-## Working
+It would be great to be able to load and save data, and also to have a serial terminal for typing programs. It's exactly the purpose of the Junior Interface board ! Look into the folder "junior-interface" for more infos !
+
+Now I'm sure you want to run BASIC on the Junior, no problem, just build the memory expansion from "junior-universal-memory folder" and you're good to go !
+
+## Status
+
+### Working
 
 * junior-computer : the computer, built and tested OK
 * junior-computer-display: the 7 segments display, built and tested OK
@@ -114,7 +120,7 @@ You can find test programs on http://retro.hansotten.nl
 * junior-bus : Elektor expansion bus. Not tested, built and tested OK
 * junior-universal-memory : a RAM/EPROM board for the computer, built and tested OK
 
-## Not tested
+### Not tested
 
 * ram-adapter : replace 2x2114 by 1x6116 RAM. Not tested
 
